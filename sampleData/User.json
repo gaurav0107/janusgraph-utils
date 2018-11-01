@@ -1,4 +1,4 @@
-[
+{ "data": [
   {
     "node_id": 1,
     "name": "Indiana Jones"
@@ -599,4 +599,4 @@
     "node_id": 150,
     "name": "Loy Orn"
   }
-]
+]}

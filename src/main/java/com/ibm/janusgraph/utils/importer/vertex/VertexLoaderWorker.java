@@ -73,8 +73,15 @@ public class VertexLoaderWorker extends Worker {
         JanusGraphVertex v = graphTransaction.addVertex(vertexLabel);
 
         // set the properties of the vertex
+        String value = null;
         for (String column : record.keySet()) {
-            String value = record.get(column);
+            try {
+                value = record.get(column);
+            }catch (Exception e){
+                System.out.println("here is the problem : " + column);
+                System.out.println("here is the problem : " + record.get(column));
+                throw e;
+            }
             // If value="" or it is a vertex label then skip it
             if (value == null || value.length() == 0 || column.equals(vertexLabelFieldName))
                 continue;

@@ -1,18 +1,18 @@
 {
   "vertexMap" : {
-    "Tweet.csv" : {
+    "Tweet.json" : {
       "[VertexLabel]" : "Tweet",
       "text" : "text",
       "node_id" : "node_id"
     },
-    "User.csv" : {
+    "User.json" : {
       "[VertexLabel]" : "User",
       "name" : "name",
       "node_id" : "node_id"
     }
   },
   "edgeMap" : {
-    "User_Tweets_Tweet_edges.csv" : {
+    "User_Tweets_Tweet_edges.json" : {
       "[edge_left]" : {
         "Left" : "User.node_id"
       },
@@ -22,7 +22,7 @@
       },
       "Date" : "Date"
     },
-    "User_Likes_Tweet_edges.csv" : {
+    "User_Likes_Tweet_edges.json" : {
       "[edge_left]" : {
         "Left" : "User.node_id"
       },
@@ -31,7 +31,7 @@
         "Right" : "Tweet.node_id"
       }
     },
-    "User_Retweets_Tweet_edges.csv" : {
+    "User_Retweets_Tweet_edges.json" : {
       "[edge_left]" : {
         "Left" : "User.node_id"
       },
@@ -40,7 +40,7 @@
         "Right" : "Tweet.node_id"
       }
     },
-    "User_Follows_User_edges.csv" : {
+    "User_Follows_User_edges.json" : {
       "[edge_left]" : {
         "Left" : "User.node_id"
       },
@@ -49,7 +49,7 @@
         "Right" : "User.node_id"
       }
     },
-    "Tweet_Mentions_User_edges.csv" : {
+    "Tweet_Mentions_User_edges.json" : {
       "[edge_left]" : {
         "Left" : "Tweet.node_id"
       },

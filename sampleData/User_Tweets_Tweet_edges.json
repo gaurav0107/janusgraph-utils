@@ -1,0 +1,5252 @@
+{"data": [
+  {
+    "Left": 66,
+    "Right": 1643,
+    "Date": "08-Jun-2016"
+  },
+  {
+    "Left": 86,
+    "Right": 1296,
+    "Date": "29-Mar-2017"
+  },
+  {
+    "Left": 132,
+    "Right": 500,
+    "Date": "21-Jan-2016"
+  },
+  {
+    "Left": 146,
+    "Right": 1454,
+    "Date": "02-Dec-2016"
+  },
+  {
+    "Left": 52,
+    "Right": 562,
+    "Date": "09-Oct-2017"
+  },
+  {
+    "Left": 4,
+    "Right": 1633,
+    "Date": "23-Jul-2015"
+  },
+  {
+    "Left": 90,
+    "Right": 966,
+    "Date": "18-Jul-2015"
+  },
+  {
+    "Left": 28,
+    "Right": 401,
+    "Date": "20-Apr-2016"
+  },
+  {
+    "Left": 94,
+    "Right": 879,
+    "Date": "24-Oct-2015"
+  },
+  {
+    "Left": 30,
+    "Right": 1339,
+    "Date": "15-Oct-2016"
+  },
+  {
+    "Left": 118,
+    "Right": 1126,
+    "Date": "31-Oct-2016"
+  },
+  {
+    "Left": 61,
+    "Right": 1403,
+    "Date": "17-Feb-2015"
+  },
+  {
+    "Left": 54,
+    "Right": 903,
+    "Date": "11-Feb-2016"
+  },
+  {
+    "Left": 83,
+    "Right": 273,
+    "Date": "26-Oct-2017"
+  },
+  {
+    "Left": 76,
+    "Right": 1461,
+    "Date": "09-Oct-2016"
+  },
+  {
+    "Left": 42,
+    "Right": 1039,
+    "Date": "15-Feb-2016"
+  },
+  {
+    "Left": 89,
+    "Right": 1525,
+    "Date": "25-May-2015"
+  },
+  {
+    "Left": 92,
+    "Right": 1487,
+    "Date": "08-May-2016"
+  },
+  {
+    "Left": 93,
+    "Right": 1044,
+    "Date": "26-Sep-2015"
+  },
+  {
+    "Left": 128,
+    "Right": 514,
+    "Date": "09-Jul-2015"
+  },
+  {
+    "Left": 108,
+    "Right": 1269,
+    "Date": "29-Dec-2017"
+  },
+  {
+    "Left": 44,
+    "Right": 436,
+    "Date": "03-Oct-2017"
+  },
+  {
+    "Left": 46,
+    "Right": 166,
+    "Date": "22-Apr-2015"
+  },
+  {
+    "Left": 44,
+    "Right": 914,
+    "Date": "16-Feb-2015"
+  },
+  {
+    "Left": 70,
+    "Right": 1399,
+    "Date": "17-Jul-2017"
+  },
+  {
+    "Left": 75,
+    "Right": 804,
+    "Date": "24-Mar-2015"
+  },
+  {
+    "Left": 142,
+    "Right": 978,
+    "Date": "03-Oct-2017"
+  },
+  {
+    "Left": 16,
+    "Right": 639,
+    "Date": "22-Jan-2016"
+  },
+  {
+    "Left": 71,
+    "Right": 927,
+    "Date": "31-Jul-2016"
+  },
+  {
+    "Left": 68,
+    "Right": 384,
+    "Date": "19-Oct-2015"
+  },
+  {
+    "Left": 96,
+    "Right": 740,
+    "Date": "05-Apr-2015"
+  },
+  {
+    "Left": 59,
+    "Right": 869,
+    "Date": "19-Jun-2015"
+  },
+  {
+    "Left": 109,
+    "Right": 1112,
+    "Date": "11-Jul-2017"
+  },
+  {
+    "Left": 67,
+    "Right": 1599,
+    "Date": "07-May-2017"
+  },
+  {
+    "Left": 133,
+    "Right": 1530,
+    "Date": "21-Jul-2015"
+  },
+  {
+    "Left": 92,
+    "Right": 1171,
+    "Date": "21-Mar-2016"
+  },
+  {
+    "Left": 70,
+    "Right": 1014,
+    "Date": "30-Apr-2016"
+  },
+  {
+    "Left": 52,
+    "Right": 710,
+    "Date": "05-Dec-2015"
+  },
+  {
+    "Left": 112,
+    "Right": 264,
+    "Date": "14-Feb-2015"
+  },
+  {
+    "Left": 20,
+    "Right": 227,
+    "Date": "01-Dec-2017"
+  },
+  {
+    "Left": 79,
+    "Right": 1433,
+    "Date": "19-Jun-2016"
+  },
+  {
+    "Left": 148,
+    "Right": 1434,
+    "Date": "10-Feb-2016"
+  },
+  {
+    "Left": 55,
+    "Right": 559,
+    "Date": "25-Apr-2017"
+  },
+  {
+    "Left": 97,
+    "Right": 805,
+    "Date": "03-Jan-2015"
+  },
+  {
+    "Left": 94,
+    "Right": 881,
+    "Date": "13-Jun-2015"
+  },
+  {
+    "Left": 51,
+    "Right": 603,
+    "Date": "25-Oct-2015"
+  },
+  {
+    "Left": 18,
+    "Right": 1542,
+    "Date": "14-Feb-2016"
+  },
+  {
+    "Left": 40,
+    "Right": 930,
+    "Date": "06-Jan-2016"
+  },
+  {
+    "Left": 121,
+    "Right": 766,
+    "Date": "20-Apr-2015"
+  },
+  {
+    "Left": 38,
+    "Right": 993,
+    "Date": "15-Sep-2017"
+  },
+  {
+    "Left": 78,
+    "Right": 386,
+    "Date": "29-Sep-2017"
+  },
+  {
+    "Left": 147,
+    "Right": 1173,
+    "Date": "01-Jul-2017"
+  },
+  {
+    "Left": 81,
+    "Right": 1459,
+    "Date": "24-Jul-2015"
+  },
+  {
+    "Left": 136,
+    "Right": 309,
+    "Date": "04-Feb-2017"
+  },
+  {
+    "Left": 122,
+    "Right": 1537,
+    "Date": "04-Dec-2017"
+  },
+  {
+    "Left": 54,
+    "Right": 1229,
+    "Date": "23-Jan-2016"
+  },
+  {
+    "Left": 59,
+    "Right": 612,
+    "Date": "02-Sep-2016"
+  },
+  {
+    "Left": 105,
+    "Right": 1291,
+    "Date": "09-Nov-2016"
+  },
+  {
+    "Left": 91,
+    "Right": 918,
+    "Date": "31-Dec-2016"
+  },
+  {
+    "Left": 73,
+    "Right": 733,
+    "Date": "21-Jul-2015"
+  },
+  {
+    "Left": 14,
+    "Right": 1398,
+    "Date": "04-Feb-2017"
+  },
+  {
+    "Left": 60,
+    "Right": 1015,
+    "Date": "19-Sep-2015"
+  },
+  {
+    "Left": 43,
+    "Right": 992,
+    "Date": "21-Jul-2015"
+  },
+  {
+    "Left": 33,
+    "Right": 661,
+    "Date": "01-Mar-2015"
+  },
+  {
+    "Left": 79,
+    "Right": 1146,
+    "Date": "18-Jul-2016"
+  },
+  {
+    "Left": 57,
+    "Right": 1476,
+    "Date": "25-May-2017"
+  },
+  {
+    "Left": 109,
+    "Right": 662,
+    "Date": "01-Aug-2017"
+  },
+  {
+    "Left": 42,
+    "Right": 1153,
+    "Date": "02-May-2017"
+  },
+  {
+    "Left": 4,
+    "Right": 278,
+    "Date": "18-Mar-2015"
+  },
+  {
+    "Left": 74,
+    "Right": 537,
+    "Date": "05-May-2017"
+  },
+  {
+    "Left": 65,
+    "Right": 240,
+    "Date": "14-Jan-2016"
+  },
+  {
+    "Left": 81,
+    "Right": 1079,
+    "Date": "27-Aug-2016"
+  },
+  {
+    "Left": 129,
+    "Right": 1581,
+    "Date": "10-Feb-2017"
+  },
+  {
+    "Left": 91,
+    "Right": 1128,
+    "Date": "19-Oct-2017"
+  },
+  {
+    "Left": 108,
+    "Right": 1236,
+    "Date": "24-Mar-2016"
+  },
+  {
+    "Left": 91,
+    "Right": 783,
+    "Date": "27-Jun-2017"
+  },
+  {
+    "Left": 143,
+    "Right": 518,
+    "Date": "03-Jun-2017"
+  },
+  {
+    "Left": 96,
+    "Right": 1041,
+    "Date": "03-Feb-2017"
+  },
+  {
+    "Left": 34,
+    "Right": 448,
+    "Date": "30-Dec-2015"
+  },
+  {
+    "Left": 145,
+    "Right": 364,
+    "Date": "05-Dec-2017"
+  },
+  {
+    "Left": 36,
+    "Right": 1428,
+    "Date": "27-Dec-2015"
+  },
+  {
+    "Left": 47,
+    "Right": 839,
+    "Date": "03-Nov-2017"
+  },
+  {
+    "Left": 129,
+    "Right": 1420,
+    "Date": "29-Sep-2016"
+  },
+  {
+    "Left": 78,
+    "Right": 1355,
+    "Date": "05-Jun-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1307,
+    "Date": "13-Jul-2015"
+  },
+  {
+    "Left": 104,
+    "Right": 760,
+    "Date": "23-Oct-2017"
+  },
+  {
+    "Left": 135,
+    "Right": 651,
+    "Date": "10-Jul-2015"
+  },
+  {
+    "Left": 41,
+    "Right": 1051,
+    "Date": "30-Nov-2017"
+  },
+  {
+    "Left": 5,
+    "Right": 784,
+    "Date": "17-Oct-2017"
+  },
+  {
+    "Left": 89,
+    "Right": 1613,
+    "Date": "22-Oct-2016"
+  },
+  {
+    "Left": 17,
+    "Right": 254,
+    "Date": "28-Apr-2017"
+  },
+  {
+    "Left": 28,
+    "Right": 1127,
+    "Date": "02-Apr-2017"
+  },
+  {
+    "Left": 68,
+    "Right": 275,
+    "Date": "17-Nov-2015"
+  },
+  {
+    "Left": 66,
+    "Right": 1547,
+    "Date": "11-May-2015"
+  },
+  {
+    "Left": 59,
+    "Right": 1418,
+    "Date": "25-Aug-2016"
+  },
+  {
+    "Left": 124,
+    "Right": 393,
+    "Date": "18-May-2015"
+  },
+  {
+    "Left": 107,
+    "Right": 1295,
+    "Date": "28-Nov-2015"
+  },
+  {
+    "Left": 75,
+    "Right": 180,
+    "Date": "13-Mar-2015"
+  },
+  {
+    "Left": 28,
+    "Right": 419,
+    "Date": "03-Aug-2016"
+  },
+  {
+    "Left": 82,
+    "Right": 933,
+    "Date": "06-Nov-2015"
+  },
+  {
+    "Left": 25,
+    "Right": 1019,
+    "Date": "10-Mar-2015"
+  },
+  {
+    "Left": 125,
+    "Right": 803,
+    "Date": "19-Oct-2015"
+  },
+  {
+    "Left": 104,
+    "Right": 1416,
+    "Date": "14-Jun-2017"
+  },
+  {
+    "Left": 117,
+    "Right": 860,
+    "Date": "15-Dec-2016"
+  },
+  {
+    "Left": 94,
+    "Right": 1603,
+    "Date": "02-Mar-2017"
+  },
+  {
+    "Left": 44,
+    "Right": 1159,
+    "Date": "11-Oct-2016"
+  },
+  {
+    "Left": 124,
+    "Right": 1626,
+    "Date": "19-Sep-2016"
+  },
+  {
+    "Left": 72,
+    "Right": 1331,
+    "Date": "10-Jun-2016"
+  },
+  {
+    "Left": 75,
+    "Right": 1534,
+    "Date": "09-Jun-2015"
+  },
+  {
+    "Left": 61,
+    "Right": 1115,
+    "Date": "17-Jul-2017"
+  },
+  {
+    "Left": 120,
+    "Right": 1301,
+    "Date": "01-Nov-2016"
+  },
+  {
+    "Left": 42,
+    "Right": 920,
+    "Date": "22-Jul-2016"
+  },
+  {
+    "Left": 141,
+    "Right": 848,
+    "Date": "16-Feb-2015"
+  },
+  {
+    "Left": 22,
+    "Right": 1410,
+    "Date": "22-Sep-2016"
+  },
+  {
+    "Left": 5,
+    "Right": 1304,
+    "Date": "19-Jun-2017"
+  },
+  {
+    "Left": 124,
+    "Right": 258,
+    "Date": "05-Jun-2015"
+  },
+  {
+    "Left": 79,
+    "Right": 334,
+    "Date": "29-Sep-2016"
+  },
+  {
+    "Left": 144,
+    "Right": 1308,
+    "Date": "17-Apr-2015"
+  },
+  {
+    "Left": 91,
+    "Right": 912,
+    "Date": "21-Aug-2015"
+  },
+  {
+    "Left": 26,
+    "Right": 1206,
+    "Date": "16-May-2016"
+  },
+  {
+    "Left": 137,
+    "Right": 1482,
+    "Date": "28-Dec-2015"
+  },
+  {
+    "Left": 19,
+    "Right": 1322,
+    "Date": "15-Apr-2016"
+  },
+  {
+    "Left": 79,
+    "Right": 1084,
+    "Date": "09-Aug-2015"
+  },
+  {
+    "Left": 43,
+    "Right": 370,
+    "Date": "19-Sep-2015"
+  },
+  {
+    "Left": 105,
+    "Right": 1138,
+    "Date": "08-Apr-2015"
+  },
+  {
+    "Left": 3,
+    "Right": 1244,
+    "Date": "17-Mar-2015"
+  },
+  {
+    "Left": 114,
+    "Right": 663,
+    "Date": "30-Dec-2017"
+  },
+  {
+    "Left": 64,
+    "Right": 1024,
+    "Date": "05-May-2015"
+  },
+  {
+    "Left": 68,
+    "Right": 381,
+    "Date": "08-Sep-2015"
+  },
+  {
+    "Left": 25,
+    "Right": 1017,
+    "Date": "24-Aug-2017"
+  },
+  {
+    "Left": 54,
+    "Right": 790,
+    "Date": "12-May-2017"
+  },
+  {
+    "Left": 33,
+    "Right": 1252,
+    "Date": "08-Apr-2017"
+  },
+  {
+    "Left": 39,
+    "Right": 217,
+    "Date": "28-Apr-2015"
+  },
+  {
+    "Left": 41,
+    "Right": 1394,
+    "Date": "19-Mar-2017"
+  },
+  {
+    "Left": 85,
+    "Right": 705,
+    "Date": "18-Oct-2016"
+  },
+  {
+    "Left": 14,
+    "Right": 1218,
+    "Date": "11-May-2016"
+  },
+  {
+    "Left": 122,
+    "Right": 913,
+    "Date": "11-Apr-2016"
+  },
+  {
+    "Left": 94,
+    "Right": 1113,
+    "Date": "02-Nov-2017"
+  },
+  {
+    "Left": 51,
+    "Right": 1556,
+    "Date": "16-Jun-2015"
+  },
+  {
+    "Left": 79,
+    "Right": 1168,
+    "Date": "31-Aug-2017"
+  },
+  {
+    "Left": 87,
+    "Right": 655,
+    "Date": "12-May-2015"
+  },
+  {
+    "Left": 60,
+    "Right": 481,
+    "Date": "10-Dec-2015"
+  },
+  {
+    "Left": 139,
+    "Right": 854,
+    "Date": "11-May-2015"
+  },
+  {
+    "Left": 89,
+    "Right": 1277,
+    "Date": "01-Jan-2017"
+  },
+  {
+    "Left": 29,
+    "Right": 367,
+    "Date": "06-Aug-2016"
+  },
+  {
+    "Left": 72,
+    "Right": 375,
+    "Date": "10-Nov-2017"
+  },
+  {
+    "Left": 76,
+    "Right": 554,
+    "Date": "17-Oct-2017"
+  },
+  {
+    "Left": 128,
+    "Right": 1341,
+    "Date": "01-Mar-2015"
+  },
+  {
+    "Left": 128,
+    "Right": 1529,
+    "Date": "04-Jun-2015"
+  },
+  {
+    "Left": 126,
+    "Right": 467,
+    "Date": "16-Sep-2016"
+  },
+  {
+    "Left": 122,
+    "Right": 1366,
+    "Date": "26-Aug-2015"
+  },
+  {
+    "Left": 148,
+    "Right": 1352,
+    "Date": "03-Aug-2017"
+  },
+  {
+    "Left": 33,
+    "Right": 1042,
+    "Date": "18-Dec-2017"
+  },
+  {
+    "Left": 109,
+    "Right": 503,
+    "Date": "11-Aug-2017"
+  },
+  {
+    "Left": 37,
+    "Right": 809,
+    "Date": "02-Apr-2015"
+  },
+  {
+    "Left": 32,
+    "Right": 1163,
+    "Date": "08-May-2015"
+  },
+  {
+    "Left": 58,
+    "Right": 1332,
+    "Date": "06-Aug-2017"
+  },
+  {
+    "Left": 38,
+    "Right": 1484,
+    "Date": "16-Nov-2015"
+  },
+  {
+    "Left": 124,
+    "Right": 1516,
+    "Date": "10-Mar-2017"
+  },
+  {
+    "Left": 84,
+    "Right": 1178,
+    "Date": "14-May-2015"
+  },
+  {
+    "Left": 77,
+    "Right": 1541,
+    "Date": "07-Mar-2016"
+  },
+  {
+    "Left": 12,
+    "Right": 1166,
+    "Date": "01-Aug-2015"
+  },
+  {
+    "Left": 121,
+    "Right": 1023,
+    "Date": "02-Jan-2015"
+  },
+  {
+    "Left": 80,
+    "Right": 392,
+    "Date": "12-May-2015"
+  },
+  {
+    "Left": 71,
+    "Right": 492,
+    "Date": "15-Nov-2016"
+  },
+  {
+    "Left": 83,
+    "Right": 296,
+    "Date": "29-Aug-2017"
+  },
+  {
+    "Left": 37,
+    "Right": 1025,
+    "Date": "16-Dec-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 607,
+    "Date": "15-Feb-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1273,
+    "Date": "19-Oct-2017"
+  },
+  {
+    "Left": 15,
+    "Right": 1214,
+    "Date": "03-Mar-2017"
+  },
+  {
+    "Left": 47,
+    "Right": 1192,
+    "Date": "04-Mar-2017"
+  },
+  {
+    "Left": 50,
+    "Right": 1175,
+    "Date": "24-Jun-2017"
+  },
+  {
+    "Left": 42,
+    "Right": 917,
+    "Date": "21-Dec-2017"
+  },
+  {
+    "Left": 75,
+    "Right": 1040,
+    "Date": "09-Nov-2017"
+  },
+  {
+    "Left": 45,
+    "Right": 224,
+    "Date": "23-Oct-2016"
+  },
+  {
+    "Left": 80,
+    "Right": 1635,
+    "Date": "22-Jan-2016"
+  },
+  {
+    "Left": 38,
+    "Right": 915,
+    "Date": "21-Dec-2017"
+  },
+  {
+    "Left": 37,
+    "Right": 888,
+    "Date": "06-Nov-2016"
+  },
+  {
+    "Left": 24,
+    "Right": 1046,
+    "Date": "06-Oct-2016"
+  },
+  {
+    "Left": 87,
+    "Right": 491,
+    "Date": "29-Jan-2015"
+  },
+  {
+    "Left": 84,
+    "Right": 176,
+    "Date": "03-Feb-2015"
+  },
+  {
+    "Left": 16,
+    "Right": 961,
+    "Date": "05-Feb-2017"
+  },
+  {
+    "Left": 24,
+    "Right": 877,
+    "Date": "22-Mar-2015"
+  },
+  {
+    "Left": 55,
+    "Right": 1034,
+    "Date": "04-Feb-2015"
+  },
+  {
+    "Left": 108,
+    "Right": 1417,
+    "Date": "01-Sep-2017"
+  },
+  {
+    "Left": 47,
+    "Right": 169,
+    "Date": "17-Sep-2017"
+  },
+  {
+    "Left": 15,
+    "Right": 1281,
+    "Date": "23-Jul-2017"
+  },
+  {
+    "Left": 19,
+    "Right": 949,
+    "Date": "04-Dec-2016"
+  },
+  {
+    "Left": 101,
+    "Right": 968,
+    "Date": "10-Jun-2015"
+  },
+  {
+    "Left": 107,
+    "Right": 623,
+    "Date": "23-Nov-2015"
+  },
+  {
+    "Left": 84,
+    "Right": 1253,
+    "Date": "09-May-2015"
+  },
+  {
+    "Left": 75,
+    "Right": 265,
+    "Date": "20-Feb-2016"
+  },
+  {
+    "Left": 39,
+    "Right": 738,
+    "Date": "04-Feb-2017"
+  },
+  {
+    "Left": 56,
+    "Right": 739,
+    "Date": "16-Jan-2015"
+  },
+  {
+    "Left": 5,
+    "Right": 1373,
+    "Date": "10-Jan-2015"
+  },
+  {
+    "Left": 43,
+    "Right": 454,
+    "Date": "30-Sep-2015"
+  },
+  {
+    "Left": 13,
+    "Right": 1302,
+    "Date": "28-Jan-2016"
+  },
+  {
+    "Left": 117,
+    "Right": 484,
+    "Date": "28-May-2017"
+  },
+  {
+    "Left": 92,
+    "Right": 1292,
+    "Date": "08-Dec-2017"
+  },
+  {
+    "Left": 79,
+    "Right": 1451,
+    "Date": "01-Aug-2015"
+  },
+  {
+    "Left": 63,
+    "Right": 1477,
+    "Date": "14-May-2016"
+  },
+  {
+    "Left": 6,
+    "Right": 162,
+    "Date": "09-Apr-2016"
+  },
+  {
+    "Left": 117,
+    "Right": 460,
+    "Date": "29-Apr-2016"
+  },
+  {
+    "Left": 14,
+    "Right": 1122,
+    "Date": "19-Aug-2017"
+  },
+  {
+    "Left": 103,
+    "Right": 658,
+    "Date": "28-Sep-2015"
+  },
+  {
+    "Left": 121,
+    "Right": 897,
+    "Date": "08-Jan-2017"
+  },
+  {
+    "Left": 38,
+    "Right": 1078,
+    "Date": "09-Jul-2015"
+  },
+  {
+    "Left": 107,
+    "Right": 1411,
+    "Date": "17-Feb-2017"
+  },
+  {
+    "Left": 36,
+    "Right": 633,
+    "Date": "08-Dec-2015"
+  },
+  {
+    "Left": 74,
+    "Right": 154,
+    "Date": "15-Jun-2016"
+  },
+  {
+    "Left": 74,
+    "Right": 493,
+    "Date": "20-May-2015"
+  },
+  {
+    "Left": 111,
+    "Right": 646,
+    "Date": "13-Dec-2017"
+  },
+  {
+    "Left": 111,
+    "Right": 1630,
+    "Date": "10-Dec-2016"
+  },
+  {
+    "Left": 94,
+    "Right": 801,
+    "Date": "21-Jun-2016"
+  },
+  {
+    "Left": 21,
+    "Right": 1070,
+    "Date": "10-Jun-2017"
+  },
+  {
+    "Left": 94,
+    "Right": 1181,
+    "Date": "08-Jul-2017"
+  },
+  {
+    "Left": 115,
+    "Right": 875,
+    "Date": "31-Jan-2017"
+  },
+  {
+    "Left": 67,
+    "Right": 1323,
+    "Date": "05-Feb-2017"
+  },
+  {
+    "Left": 90,
+    "Right": 1629,
+    "Date": "17-Dec-2017"
+  },
+  {
+    "Left": 105,
+    "Right": 1247,
+    "Date": "31-Mar-2017"
+  },
+  {
+    "Left": 145,
+    "Right": 716,
+    "Date": "19-Jan-2016"
+  },
+  {
+    "Left": 91,
+    "Right": 1512,
+    "Date": "04-Dec-2015"
+  },
+  {
+    "Left": 13,
+    "Right": 178,
+    "Date": "10-Sep-2016"
+  },
+  {
+    "Left": 103,
+    "Right": 1649,
+    "Date": "20-Jul-2017"
+  },
+  {
+    "Left": 130,
+    "Right": 1062,
+    "Date": "25-Oct-2016"
+  },
+  {
+    "Left": 103,
+    "Right": 200,
+    "Date": "14-Feb-2015"
+  },
+  {
+    "Left": 98,
+    "Right": 1462,
+    "Date": "19-Jan-2016"
+  },
+  {
+    "Left": 99,
+    "Right": 1470,
+    "Date": "25-May-2016"
+  },
+  {
+    "Left": 30,
+    "Right": 306,
+    "Date": "29-Jan-2015"
+  },
+  {
+    "Left": 98,
+    "Right": 1622,
+    "Date": "11-Apr-2016"
+  },
+  {
+    "Left": 65,
+    "Right": 685,
+    "Date": "14-Jul-2016"
+  },
+  {
+    "Left": 30,
+    "Right": 1571,
+    "Date": "04-Mar-2017"
+  },
+  {
+    "Left": 82,
+    "Right": 415,
+    "Date": "18-Dec-2017"
+  },
+  {
+    "Left": 125,
+    "Right": 259,
+    "Date": "13-Nov-2015"
+  },
+  {
+    "Left": 29,
+    "Right": 599,
+    "Date": "22-May-2015"
+  },
+  {
+    "Left": 71,
+    "Right": 1590,
+    "Date": "11-Mar-2017"
+  },
+  {
+    "Left": 106,
+    "Right": 721,
+    "Date": "17-Apr-2017"
+  },
+  {
+    "Left": 145,
+    "Right": 820,
+    "Date": "08-Jan-2017"
+  },
+  {
+    "Left": 60,
+    "Right": 756,
+    "Date": "12-Apr-2016"
+  },
+  {
+    "Left": 27,
+    "Right": 459,
+    "Date": "14-Apr-2017"
+  },
+  {
+    "Left": 138,
+    "Right": 332,
+    "Date": "11-Mar-2016"
+  },
+  {
+    "Left": 23,
+    "Right": 925,
+    "Date": "26-Jul-2015"
+  },
+  {
+    "Left": 109,
+    "Right": 726,
+    "Date": "07-Dec-2015"
+  },
+  {
+    "Left": 27,
+    "Right": 1094,
+    "Date": "12-Sep-2016"
+  },
+  {
+    "Left": 8,
+    "Right": 203,
+    "Date": "10-Sep-2015"
+  },
+  {
+    "Left": 34,
+    "Right": 950,
+    "Date": "12-Dec-2017"
+  },
+  {
+    "Left": 31,
+    "Right": 780,
+    "Date": "12-Jan-2016"
+  },
+  {
+    "Left": 22,
+    "Right": 1085,
+    "Date": "15-Jan-2015"
+  },
+  {
+    "Left": 107,
+    "Right": 399,
+    "Date": "26-Jul-2016"
+  },
+  {
+    "Left": 84,
+    "Right": 158,
+    "Date": "13-Sep-2016"
+  },
+  {
+    "Left": 4,
+    "Right": 1370,
+    "Date": "25-Jan-2017"
+  },
+  {
+    "Left": 73,
+    "Right": 1258,
+    "Date": "22-Apr-2015"
+  },
+  {
+    "Left": 87,
+    "Right": 817,
+    "Date": "03-Mar-2016"
+  },
+  {
+    "Left": 8,
+    "Right": 394,
+    "Date": "18-Oct-2017"
+  },
+  {
+    "Left": 52,
+    "Right": 1006,
+    "Date": "29-Oct-2017"
+  },
+  {
+    "Left": 46,
+    "Right": 684,
+    "Date": "04-Jul-2015"
+  },
+  {
+    "Left": 105,
+    "Right": 755,
+    "Date": "23-Nov-2017"
+  },
+  {
+    "Left": 103,
+    "Right": 1036,
+    "Date": "30-Oct-2016"
+  },
+  {
+    "Left": 115,
+    "Right": 505,
+    "Date": "19-Feb-2017"
+  },
+  {
+    "Left": 116,
+    "Right": 1353,
+    "Date": "24-Jun-2017"
+  },
+  {
+    "Left": 27,
+    "Right": 863,
+    "Date": "22-Sep-2016"
+  },
+  {
+    "Left": 102,
+    "Right": 620,
+    "Date": "18-Aug-2015"
+  },
+  {
+    "Left": 33,
+    "Right": 1272,
+    "Date": "24-Jun-2015"
+  },
+  {
+    "Left": 82,
+    "Right": 1293,
+    "Date": "05-Feb-2015"
+  },
+  {
+    "Left": 90,
+    "Right": 458,
+    "Date": "08-Apr-2017"
+  },
+  {
+    "Left": 36,
+    "Right": 292,
+    "Date": "03-Jul-2017"
+  },
+  {
+    "Left": 72,
+    "Right": 366,
+    "Date": "25-Oct-2015"
+  },
+  {
+    "Left": 95,
+    "Right": 1551,
+    "Date": "31-Mar-2015"
+  },
+  {
+    "Left": 50,
+    "Right": 643,
+    "Date": "28-Jan-2017"
+  },
+  {
+    "Left": 117,
+    "Right": 1597,
+    "Date": "30-Mar-2017"
+  },
+  {
+    "Left": 43,
+    "Right": 1066,
+    "Date": "21-Jan-2015"
+  },
+  {
+    "Left": 89,
+    "Right": 174,
+    "Date": "09-Mar-2016"
+  },
+  {
+    "Left": 50,
+    "Right": 555,
+    "Date": "25-Nov-2016"
+  },
+  {
+    "Left": 12,
+    "Right": 1577,
+    "Date": "16-Nov-2015"
+  },
+  {
+    "Left": 53,
+    "Right": 1043,
+    "Date": "10-Apr-2015"
+  },
+  {
+    "Left": 58,
+    "Right": 421,
+    "Date": "02-Aug-2017"
+  },
+  {
+    "Left": 115,
+    "Right": 285,
+    "Date": "21-Mar-2016"
+  },
+  {
+    "Left": 93,
+    "Right": 689,
+    "Date": "06-Jan-2017"
+  },
+  {
+    "Left": 112,
+    "Right": 543,
+    "Date": "14-Jul-2016"
+  },
+  {
+    "Left": 74,
+    "Right": 991,
+    "Date": "08-Jul-2015"
+  },
+  {
+    "Left": 102,
+    "Right": 719,
+    "Date": "27-Apr-2015"
+  },
+  {
+    "Left": 85,
+    "Right": 1137,
+    "Date": "02-Dec-2015"
+  },
+  {
+    "Left": 121,
+    "Right": 1631,
+    "Date": "02-Jul-2017"
+  },
+  {
+    "Left": 114,
+    "Right": 1579,
+    "Date": "05-Dec-2015"
+  },
+  {
+    "Left": 140,
+    "Right": 1349,
+    "Date": "25-Apr-2017"
+  },
+  {
+    "Left": 52,
+    "Right": 1095,
+    "Date": "16-Aug-2017"
+  },
+  {
+    "Left": 6,
+    "Right": 311,
+    "Date": "23-Jun-2017"
+  },
+  {
+    "Left": 125,
+    "Right": 579,
+    "Date": "02-Feb-2016"
+  },
+  {
+    "Left": 60,
+    "Right": 1371,
+    "Date": "17-Sep-2016"
+  },
+  {
+    "Left": 38,
+    "Right": 1016,
+    "Date": "05-Aug-2016"
+  },
+  {
+    "Left": 77,
+    "Right": 974,
+    "Date": "10-Sep-2015"
+  },
+  {
+    "Left": 102,
+    "Right": 1594,
+    "Date": "09-Feb-2015"
+  },
+  {
+    "Left": 35,
+    "Right": 835,
+    "Date": "27-Sep-2015"
+  },
+  {
+    "Left": 22,
+    "Right": 1554,
+    "Date": "08-Feb-2016"
+  },
+  {
+    "Left": 39,
+    "Right": 987,
+    "Date": "02-Apr-2016"
+  },
+  {
+    "Left": 94,
+    "Right": 1145,
+    "Date": "15-May-2016"
+  },
+  {
+    "Left": 135,
+    "Right": 183,
+    "Date": "05-Jul-2016"
+  },
+  {
+    "Left": 95,
+    "Right": 1033,
+    "Date": "21-Jun-2015"
+  },
+  {
+    "Left": 144,
+    "Right": 313,
+    "Date": "04-Feb-2017"
+  },
+  {
+    "Left": 14,
+    "Right": 645,
+    "Date": "04-Mar-2016"
+  },
+  {
+    "Left": 12,
+    "Right": 321,
+    "Date": "03-Apr-2016"
+  },
+  {
+    "Left": 144,
+    "Right": 678,
+    "Date": "24-Apr-2016"
+  },
+  {
+    "Left": 56,
+    "Right": 468,
+    "Date": "20-Feb-2016"
+  },
+  {
+    "Left": 114,
+    "Right": 1190,
+    "Date": "09-Sep-2015"
+  },
+  {
+    "Left": 65,
+    "Right": 763,
+    "Date": "14-Mar-2017"
+  },
+  {
+    "Left": 61,
+    "Right": 802,
+    "Date": "15-Mar-2016"
+  },
+  {
+    "Left": 109,
+    "Right": 274,
+    "Date": "20-Apr-2015"
+  },
+  {
+    "Left": 47,
+    "Right": 1099,
+    "Date": "15-May-2017"
+  },
+  {
+    "Left": 123,
+    "Right": 701,
+    "Date": "16-Nov-2015"
+  },
+  {
+    "Left": 122,
+    "Right": 1593,
+    "Date": "24-Jun-2015"
+  },
+  {
+    "Left": 41,
+    "Right": 516,
+    "Date": "17-Oct-2017"
+  },
+  {
+    "Left": 12,
+    "Right": 1496,
+    "Date": "09-Jun-2017"
+  },
+  {
+    "Left": 111,
+    "Right": 788,
+    "Date": "15-Jan-2017"
+  },
+  {
+    "Left": 34,
+    "Right": 1174,
+    "Date": "29-Dec-2017"
+  },
+  {
+    "Left": 63,
+    "Right": 597,
+    "Date": "13-Jul-2017"
+  },
+  {
+    "Left": 130,
+    "Right": 700,
+    "Date": "07-Nov-2015"
+  },
+  {
+    "Left": 7,
+    "Right": 1379,
+    "Date": "04-Dec-2015"
+  },
+  {
+    "Left": 117,
+    "Right": 354,
+    "Date": "26-Apr-2017"
+  },
+  {
+    "Left": 73,
+    "Right": 867,
+    "Date": "17-May-2017"
+  },
+  {
+    "Left": 90,
+    "Right": 573,
+    "Date": "07-Aug-2015"
+  },
+  {
+    "Left": 140,
+    "Right": 575,
+    "Date": "02-Oct-2017"
+  },
+  {
+    "Left": 139,
+    "Right": 668,
+    "Date": "30-Sep-2016"
+  },
+  {
+    "Left": 119,
+    "Right": 1345,
+    "Date": "08-Jan-2016"
+  },
+  {
+    "Left": 66,
+    "Right": 1431,
+    "Date": "26-Aug-2015"
+  },
+  {
+    "Left": 136,
+    "Right": 1573,
+    "Date": "14-Sep-2016"
+  },
+  {
+    "Left": 99,
+    "Right": 1073,
+    "Date": "10-Jan-2016"
+  },
+  {
+    "Left": 54,
+    "Right": 688,
+    "Date": "27-Feb-2017"
+  },
+  {
+    "Left": 61,
+    "Right": 994,
+    "Date": "31-Aug-2016"
+  },
+  {
+    "Left": 139,
+    "Right": 936,
+    "Date": "01-Aug-2017"
+  },
+  {
+    "Left": 18,
+    "Right": 711,
+    "Date": "01-May-2017"
+  },
+  {
+    "Left": 104,
+    "Right": 438,
+    "Date": "10-Aug-2016"
+  },
+  {
+    "Left": 72,
+    "Right": 853,
+    "Date": "25-Jan-2015"
+  },
+  {
+    "Left": 137,
+    "Right": 1526,
+    "Date": "13-Apr-2015"
+  },
+  {
+    "Left": 68,
+    "Right": 963,
+    "Date": "02-Dec-2015"
+  },
+  {
+    "Left": 67,
+    "Right": 336,
+    "Date": "05-Jan-2016"
+  },
+  {
+    "Left": 7,
+    "Right": 525,
+    "Date": "16-Mar-2016"
+  },
+  {
+    "Left": 4,
+    "Right": 1560,
+    "Date": "11-Oct-2017"
+  },
+  {
+    "Left": 143,
+    "Right": 775,
+    "Date": "08-May-2016"
+  },
+  {
+    "Left": 139,
+    "Right": 293,
+    "Date": "24-May-2015"
+  },
+  {
+    "Left": 68,
+    "Right": 1312,
+    "Date": "26-Jul-2016"
+  },
+  {
+    "Left": 93,
+    "Right": 1142,
+    "Date": "04-Dec-2017"
+  },
+  {
+    "Left": 138,
+    "Right": 1169,
+    "Date": "09-Sep-2017"
+  },
+  {
+    "Left": 149,
+    "Right": 325,
+    "Date": "14-Aug-2017"
+  },
+  {
+    "Left": 73,
+    "Right": 1198,
+    "Date": "04-Jun-2016"
+  },
+  {
+    "Left": 116,
+    "Right": 720,
+    "Date": "24-Mar-2016"
+  },
+  {
+    "Left": 107,
+    "Right": 1124,
+    "Date": "25-Jan-2016"
+  },
+  {
+    "Left": 96,
+    "Right": 675,
+    "Date": "24-Jul-2015"
+  },
+  {
+    "Left": 18,
+    "Right": 578,
+    "Date": "13-Apr-2016"
+  },
+  {
+    "Left": 112,
+    "Right": 866,
+    "Date": "25-Jul-2015"
+  },
+  {
+    "Left": 68,
+    "Right": 304,
+    "Date": "28-Jul-2015"
+  },
+  {
+    "Left": 145,
+    "Right": 605,
+    "Date": "14-Feb-2015"
+  },
+  {
+    "Left": 125,
+    "Right": 1393,
+    "Date": "20-Jan-2017"
+  },
+  {
+    "Left": 131,
+    "Right": 932,
+    "Date": "03-May-2015"
+  },
+  {
+    "Left": 140,
+    "Right": 347,
+    "Date": "01-Jun-2015"
+  },
+  {
+    "Left": 48,
+    "Right": 1634,
+    "Date": "16-Oct-2015"
+  },
+  {
+    "Left": 100,
+    "Right": 819,
+    "Date": "26-Mar-2017"
+  },
+  {
+    "Left": 147,
+    "Right": 1148,
+    "Date": "30-Jul-2015"
+  },
+  {
+    "Left": 30,
+    "Right": 576,
+    "Date": "14-Apr-2017"
+  },
+  {
+    "Left": 128,
+    "Right": 1160,
+    "Date": "12-Jul-2017"
+  },
+  {
+    "Left": 90,
+    "Right": 1111,
+    "Date": "17-Jul-2017"
+  },
+  {
+    "Left": 86,
+    "Right": 1494,
+    "Date": "25-Feb-2017"
+  },
+  {
+    "Left": 38,
+    "Right": 1150,
+    "Date": "29-Dec-2016"
+  },
+  {
+    "Left": 102,
+    "Right": 383,
+    "Date": "14-Aug-2015"
+  },
+  {
+    "Left": 22,
+    "Right": 842,
+    "Date": "09-Apr-2015"
+  },
+  {
+    "Left": 23,
+    "Right": 1289,
+    "Date": "28-Dec-2016"
+  },
+  {
+    "Left": 3,
+    "Right": 960,
+    "Date": "12-Oct-2017"
+  },
+  {
+    "Left": 142,
+    "Right": 530,
+    "Date": "20-Apr-2017"
+  },
+  {
+    "Left": 144,
+    "Right": 404,
+    "Date": "24-Jul-2017"
+  },
+  {
+    "Left": 126,
+    "Right": 256,
+    "Date": "09-Jan-2015"
+  },
+  {
+    "Left": 137,
+    "Right": 385,
+    "Date": "05-Mar-2016"
+  },
+  {
+    "Left": 93,
+    "Right": 1606,
+    "Date": "15-May-2015"
+  },
+  {
+    "Left": 75,
+    "Right": 943,
+    "Date": "16-Oct-2015"
+  },
+  {
+    "Left": 68,
+    "Right": 561,
+    "Date": "04-Sep-2017"
+  },
+  {
+    "Left": 147,
+    "Right": 872,
+    "Date": "11-Apr-2015"
+  },
+  {
+    "Left": 78,
+    "Right": 1589,
+    "Date": "14-Apr-2015"
+  },
+  {
+    "Left": 147,
+    "Right": 1132,
+    "Date": "06-Mar-2017"
+  },
+  {
+    "Left": 74,
+    "Right": 1335,
+    "Date": "13-Feb-2016"
+  },
+  {
+    "Left": 48,
+    "Right": 379,
+    "Date": "08-Feb-2017"
+  },
+  {
+    "Left": 25,
+    "Right": 1003,
+    "Date": "19-Jan-2016"
+  },
+  {
+    "Left": 53,
+    "Right": 723,
+    "Date": "31-Jul-2016"
+  },
+  {
+    "Left": 132,
+    "Right": 941,
+    "Date": "01-Oct-2016"
+  },
+  {
+    "Left": 85,
+    "Right": 156,
+    "Date": "21-Sep-2016"
+  },
+  {
+    "Left": 24,
+    "Right": 1448,
+    "Date": "19-Jul-2015"
+  },
+  {
+    "Left": 81,
+    "Right": 1535,
+    "Date": "19-Nov-2015"
+  },
+  {
+    "Left": 101,
+    "Right": 510,
+    "Date": "19-Jul-2015"
+  },
+  {
+    "Left": 45,
+    "Right": 1249,
+    "Date": "13-Sep-2015"
+  },
+  {
+    "Left": 15,
+    "Right": 480,
+    "Date": "11-Mar-2015"
+  },
+  {
+    "Left": 121,
+    "Right": 535,
+    "Date": "04-Nov-2017"
+  },
+  {
+    "Left": 66,
+    "Right": 428,
+    "Date": "23-Feb-2015"
+  },
+  {
+    "Left": 41,
+    "Right": 314,
+    "Date": "06-Aug-2017"
+  },
+  {
+    "Left": 16,
+    "Right": 1182,
+    "Date": "04-Jul-2016"
+  },
+  {
+    "Left": 24,
+    "Right": 1413,
+    "Date": "31-May-2015"
+  },
+  {
+    "Left": 104,
+    "Right": 1184,
+    "Date": "08-Jul-2016"
+  },
+  {
+    "Left": 52,
+    "Right": 211,
+    "Date": "18-May-2017"
+  },
+  {
+    "Left": 14,
+    "Right": 647,
+    "Date": "25-Mar-2015"
+  },
+  {
+    "Left": 112,
+    "Right": 980,
+    "Date": "18-Nov-2017"
+  },
+  {
+    "Left": 149,
+    "Right": 216,
+    "Date": "03-Jan-2015"
+  },
+  {
+    "Left": 111,
+    "Right": 1539,
+    "Date": "31-Jan-2016"
+  },
+  {
+    "Left": 84,
+    "Right": 295,
+    "Date": "16-Dec-2016"
+  },
+  {
+    "Left": 63,
+    "Right": 728,
+    "Date": "09-Nov-2015"
+  },
+  {
+    "Left": 55,
+    "Right": 1343,
+    "Date": "03-Aug-2017"
+  },
+  {
+    "Left": 62,
+    "Right": 594,
+    "Date": "30-Jan-2017"
+  },
+  {
+    "Left": 78,
+    "Right": 167,
+    "Date": "16-Dec-2017"
+  },
+  {
+    "Left": 106,
+    "Right": 567,
+    "Date": "21-Oct-2016"
+  },
+  {
+    "Left": 64,
+    "Right": 900,
+    "Date": "25-Oct-2016"
+  },
+  {
+    "Left": 124,
+    "Right": 397,
+    "Date": "13-Aug-2015"
+  },
+  {
+    "Left": 149,
+    "Right": 1282,
+    "Date": "19-Sep-2016"
+  },
+  {
+    "Left": 23,
+    "Right": 1082,
+    "Date": "03-Feb-2016"
+  },
+  {
+    "Left": 123,
+    "Right": 826,
+    "Date": "30-Jun-2017"
+  },
+  {
+    "Left": 79,
+    "Right": 938,
+    "Date": "24-Sep-2015"
+  },
+  {
+    "Left": 91,
+    "Right": 887,
+    "Date": "17-Jul-2016"
+  },
+  {
+    "Left": 84,
+    "Right": 1568,
+    "Date": "27-Aug-2016"
+  },
+  {
+    "Left": 90,
+    "Right": 1604,
+    "Date": "12-Dec-2015"
+  },
+  {
+    "Left": 102,
+    "Right": 266,
+    "Date": "27-Dec-2016"
+  },
+  {
+    "Left": 84,
+    "Right": 196,
+    "Date": "04-Oct-2016"
+  },
+  {
+    "Left": 9,
+    "Right": 1645,
+    "Date": "20-Jul-2016"
+  },
+  {
+    "Left": 109,
+    "Right": 851,
+    "Date": "09-Nov-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 339,
+    "Date": "25-Jul-2015"
+  },
+  {
+    "Left": 24,
+    "Right": 1479,
+    "Date": "15-Oct-2016"
+  },
+  {
+    "Left": 114,
+    "Right": 916,
+    "Date": "16-Nov-2017"
+  },
+  {
+    "Left": 20,
+    "Right": 683,
+    "Date": "27-Apr-2016"
+  },
+  {
+    "Left": 16,
+    "Right": 652,
+    "Date": "30-Dec-2015"
+  },
+  {
+    "Left": 115,
+    "Right": 1194,
+    "Date": "22-Jul-2015"
+  },
+  {
+    "Left": 72,
+    "Right": 1389,
+    "Date": "12-Dec-2016"
+  },
+  {
+    "Left": 34,
+    "Right": 621,
+    "Date": "23-Aug-2017"
+  },
+  {
+    "Left": 126,
+    "Right": 818,
+    "Date": "20-May-2016"
+  },
+  {
+    "Left": 57,
+    "Right": 1564,
+    "Date": "27-Nov-2015"
+  },
+  {
+    "Left": 122,
+    "Right": 1550,
+    "Date": "08-Aug-2015"
+  },
+  {
+    "Left": 119,
+    "Right": 363,
+    "Date": "13-Oct-2017"
+  },
+  {
+    "Left": 12,
+    "Right": 1424,
+    "Date": "03-Apr-2016"
+  },
+  {
+    "Left": 64,
+    "Right": 1119,
+    "Date": "24-Jan-2017"
+  },
+  {
+    "Left": 24,
+    "Right": 508,
+    "Date": "25-Jan-2016"
+  },
+  {
+    "Left": 141,
+    "Right": 512,
+    "Date": "23-Oct-2017"
+  },
+  {
+    "Left": 110,
+    "Right": 1071,
+    "Date": "07-Oct-2016"
+  },
+  {
+    "Left": 69,
+    "Right": 1580,
+    "Date": "16-Oct-2016"
+  },
+  {
+    "Left": 56,
+    "Right": 1114,
+    "Date": "18-May-2015"
+  },
+  {
+    "Left": 95,
+    "Right": 1179,
+    "Date": "31-Oct-2016"
+  },
+  {
+    "Left": 114,
+    "Right": 1096,
+    "Date": "23-Sep-2017"
+  },
+  {
+    "Left": 100,
+    "Right": 649,
+    "Date": "27-Jul-2015"
+  },
+  {
+    "Left": 122,
+    "Right": 672,
+    "Date": "02-Aug-2016"
+  },
+  {
+    "Left": 42,
+    "Right": 614,
+    "Date": "29-Aug-2017"
+  },
+  {
+    "Left": 81,
+    "Right": 538,
+    "Date": "08-Mar-2015"
+  },
+  {
+    "Left": 124,
+    "Right": 1617,
+    "Date": "07-Dec-2015"
+  },
+  {
+    "Left": 15,
+    "Right": 969,
+    "Date": "27-Apr-2016"
+  },
+  {
+    "Left": 33,
+    "Right": 1569,
+    "Date": "25-Sep-2015"
+  },
+  {
+    "Left": 51,
+    "Right": 1234,
+    "Date": "22-Jul-2017"
+  },
+  {
+    "Left": 11,
+    "Right": 1011,
+    "Date": "09-Sep-2016"
+  },
+  {
+    "Left": 68,
+    "Right": 545,
+    "Date": "30-Oct-2017"
+  },
+  {
+    "Left": 11,
+    "Right": 1620,
+    "Date": "09-May-2016"
+  },
+  {
+    "Left": 12,
+    "Right": 1531,
+    "Date": "12-Nov-2017"
+  },
+  {
+    "Left": 119,
+    "Right": 205,
+    "Date": "11-Sep-2015"
+  },
+  {
+    "Left": 44,
+    "Right": 1149,
+    "Date": "07-Nov-2016"
+  },
+  {
+    "Left": 54,
+    "Right": 152,
+    "Date": "24-Jan-2015"
+  },
+  {
+    "Left": 61,
+    "Right": 882,
+    "Date": "31-Aug-2016"
+  },
+  {
+    "Left": 67,
+    "Right": 534,
+    "Date": "27-Oct-2016"
+  },
+  {
+    "Left": 53,
+    "Right": 891,
+    "Date": "30-Apr-2015"
+  },
+  {
+    "Left": 122,
+    "Right": 536,
+    "Date": "15-Dec-2015"
+  },
+  {
+    "Left": 126,
+    "Right": 356,
+    "Date": "14-Jan-2015"
+  },
+  {
+    "Left": 21,
+    "Right": 175,
+    "Date": "14-Sep-2015"
+  },
+  {
+    "Left": 78,
+    "Right": 1509,
+    "Date": "01-Dec-2017"
+  },
+  {
+    "Left": 47,
+    "Right": 1052,
+    "Date": "03-Jul-2017"
+  },
+  {
+    "Left": 85,
+    "Right": 1172,
+    "Date": "20-Jun-2017"
+  },
+  {
+    "Left": 134,
+    "Right": 1110,
+    "Date": "07-Jul-2015"
+  },
+  {
+    "Left": 101,
+    "Right": 487,
+    "Date": "02-Apr-2017"
+  },
+  {
+    "Left": 90,
+    "Right": 294,
+    "Date": "29-Oct-2017"
+  },
+  {
+    "Left": 42,
+    "Right": 731,
+    "Date": "18-Oct-2015"
+  },
+  {
+    "Left": 103,
+    "Right": 1220,
+    "Date": "10-Mar-2016"
+  },
+  {
+    "Left": 5,
+    "Right": 861,
+    "Date": "07-Apr-2015"
+  },
+  {
+    "Left": 108,
+    "Right": 940,
+    "Date": "26-Oct-2015"
+  },
+  {
+    "Left": 84,
+    "Right": 1001,
+    "Date": "24-Jun-2017"
+  },
+  {
+    "Left": 136,
+    "Right": 165,
+    "Date": "28-Dec-2017"
+  },
+  {
+    "Left": 107,
+    "Right": 988,
+    "Date": "05-Dec-2017"
+  },
+  {
+    "Left": 32,
+    "Right": 747,
+    "Date": "14-Nov-2017"
+  },
+  {
+    "Left": 116,
+    "Right": 1139,
+    "Date": "04-Oct-2015"
+  },
+  {
+    "Left": 112,
+    "Right": 1540,
+    "Date": "25-Mar-2017"
+  },
+  {
+    "Left": 38,
+    "Right": 163,
+    "Date": "02-Nov-2016"
+  },
+  {
+    "Left": 90,
+    "Right": 1167,
+    "Date": "27-Jul-2016"
+  },
+  {
+    "Left": 7,
+    "Right": 382,
+    "Date": "11-Nov-2016"
+  },
+  {
+    "Left": 11,
+    "Right": 1118,
+    "Date": "21-Feb-2015"
+  },
+  {
+    "Left": 142,
+    "Right": 557,
+    "Date": "11-Aug-2016"
+  },
+  {
+    "Left": 83,
+    "Right": 1340,
+    "Date": "05-Jun-2015"
+  },
+  {
+    "Left": 135,
+    "Right": 403,
+    "Date": "24-Jun-2016"
+  },
+  {
+    "Left": 89,
+    "Right": 708,
+    "Date": "14-Nov-2015"
+  },
+  {
+    "Left": 45,
+    "Right": 473,
+    "Date": "02-Jun-2016"
+  },
+  {
+    "Left": 36,
+    "Right": 359,
+    "Date": "03-Feb-2015"
+  },
+  {
+    "Left": 52,
+    "Right": 759,
+    "Date": "19-Aug-2016"
+  },
+  {
+    "Left": 120,
+    "Right": 1440,
+    "Date": "16-Aug-2017"
+  },
+  {
+    "Left": 80,
+    "Right": 346,
+    "Date": "19-Nov-2017"
+  },
+  {
+    "Left": 71,
+    "Right": 840,
+    "Date": "03-Apr-2016"
+  },
+  {
+    "Left": 118,
+    "Right": 874,
+    "Date": "31-Jul-2016"
+  },
+  {
+    "Left": 22,
+    "Right": 159,
+    "Date": "29-Oct-2017"
+  },
+  {
+    "Left": 57,
+    "Right": 369,
+    "Date": "11-Aug-2015"
+  },
+  {
+    "Left": 126,
+    "Right": 935,
+    "Date": "21-Mar-2017"
+  },
+  {
+    "Left": 125,
+    "Right": 1067,
+    "Date": "03-Sep-2017"
+  },
+  {
+    "Left": 113,
+    "Right": 291,
+    "Date": "27-May-2016"
+  },
+  {
+    "Left": 146,
+    "Right": 1500,
+    "Date": "28-Jul-2015"
+  },
+  {
+    "Left": 24,
+    "Right": 1200,
+    "Date": "24-Nov-2015"
+  },
+  {
+    "Left": 118,
+    "Right": 1423,
+    "Date": "07-Apr-2015"
+  },
+  {
+    "Left": 37,
+    "Right": 1636,
+    "Date": "05-Mar-2015"
+  },
+  {
+    "Left": 148,
+    "Right": 627,
+    "Date": "15-Jan-2015"
+  },
+  {
+    "Left": 11,
+    "Right": 873,
+    "Date": "11-Jan-2017"
+  },
+  {
+    "Left": 42,
+    "Right": 1069,
+    "Date": "04-Feb-2015"
+  },
+  {
+    "Left": 37,
+    "Right": 542,
+    "Date": "02-Mar-2015"
+  },
+  {
+    "Left": 26,
+    "Right": 641,
+    "Date": "15-Aug-2015"
+  },
+  {
+    "Left": 41,
+    "Right": 730,
+    "Date": "02-Jul-2017"
+  },
+  {
+    "Left": 79,
+    "Right": 192,
+    "Date": "22-Mar-2015"
+  },
+  {
+    "Left": 58,
+    "Right": 753,
+    "Date": "12-Apr-2015"
+  },
+  {
+    "Left": 27,
+    "Right": 1469,
+    "Date": "07-May-2015"
+  },
+  {
+    "Left": 95,
+    "Right": 1405,
+    "Date": "08-Jan-2017"
+  },
+  {
+    "Left": 13,
+    "Right": 529,
+    "Date": "14-Aug-2015"
+  },
+  {
+    "Left": 65,
+    "Right": 1582,
+    "Date": "09-Apr-2016"
+  },
+  {
+    "Left": 20,
+    "Right": 999,
+    "Date": "06-May-2017"
+  },
+  {
+    "Left": 146,
+    "Right": 808,
+    "Date": "26-May-2016"
+  },
+  {
+    "Left": 32,
+    "Right": 1116,
+    "Date": "16-Jul-2016"
+  },
+  {
+    "Left": 24,
+    "Right": 770,
+    "Date": "17-Aug-2017"
+  },
+  {
+    "Left": 116,
+    "Right": 348,
+    "Date": "12-Feb-2017"
+  },
+  {
+    "Left": 40,
+    "Right": 1397,
+    "Date": "10-Mar-2017"
+  },
+  {
+    "Left": 74,
+    "Right": 1191,
+    "Date": "06-Feb-2017"
+  },
+  {
+    "Left": 122,
+    "Right": 945,
+    "Date": "09-Sep-2016"
+  },
+  {
+    "Left": 99,
+    "Right": 625,
+    "Date": "15-Dec-2016"
+  },
+  {
+    "Left": 136,
+    "Right": 1401,
+    "Date": "07-Apr-2017"
+  },
+  {
+    "Left": 39,
+    "Right": 344,
+    "Date": "06-Jul-2016"
+  },
+  {
+    "Left": 125,
+    "Right": 1098,
+    "Date": "22-May-2016"
+  },
+  {
+    "Left": 79,
+    "Right": 242,
+    "Date": "13-Jul-2017"
+  },
+  {
+    "Left": 20,
+    "Right": 548,
+    "Date": "16-Aug-2016"
+  },
+  {
+    "Left": 41,
+    "Right": 251,
+    "Date": "05-Jun-2016"
+  },
+  {
+    "Left": 86,
+    "Right": 1075,
+    "Date": "19-Jun-2017"
+  },
+  {
+    "Left": 72,
+    "Right": 1120,
+    "Date": "11-Jan-2016"
+  },
+  {
+    "Left": 96,
+    "Right": 523,
+    "Date": "10-Jul-2017"
+  },
+  {
+    "Left": 141,
+    "Right": 921,
+    "Date": "04-Jul-2017"
+  },
+  {
+    "Left": 72,
+    "Right": 246,
+    "Date": "22-Feb-2017"
+  },
+  {
+    "Left": 96,
+    "Right": 1396,
+    "Date": "21-Oct-2015"
+  },
+  {
+    "Left": 17,
+    "Right": 277,
+    "Date": "17-May-2016"
+  },
+  {
+    "Left": 124,
+    "Right": 1000,
+    "Date": "15-Mar-2015"
+  },
+  {
+    "Left": 135,
+    "Right": 622,
+    "Date": "29-Apr-2016"
+  },
+  {
+    "Left": 79,
+    "Right": 331,
+    "Date": "26-Aug-2016"
+  },
+  {
+    "Left": 145,
+    "Right": 1058,
+    "Date": "25-Mar-2016"
+  },
+  {
+    "Left": 41,
+    "Right": 1521,
+    "Date": "25-May-2016"
+  },
+  {
+    "Left": 51,
+    "Right": 1384,
+    "Date": "20-Mar-2016"
+  },
+  {
+    "Left": 123,
+    "Right": 929,
+    "Date": "24-Oct-2015"
+  },
+  {
+    "Left": 30,
+    "Right": 442,
+    "Date": "04-Jan-2016"
+  },
+  {
+    "Left": 4,
+    "Right": 905,
+    "Date": "12-Nov-2017"
+  },
+  {
+    "Left": 36,
+    "Right": 1474,
+    "Date": "01-Jul-2016"
+  },
+  {
+    "Left": 46,
+    "Right": 1346,
+    "Date": "11-Nov-2015"
+  },
+  {
+    "Left": 22,
+    "Right": 212,
+    "Date": "03-Jan-2017"
+  },
+  {
+    "Left": 109,
+    "Right": 581,
+    "Date": "04-Apr-2017"
+  },
+  {
+    "Left": 11,
+    "Right": 479,
+    "Date": "01-Jul-2015"
+  },
+  {
+    "Left": 61,
+    "Right": 289,
+    "Date": "11-Feb-2016"
+  },
+  {
+    "Left": 11,
+    "Right": 268,
+    "Date": "27-Nov-2016"
+  },
+  {
+    "Left": 119,
+    "Right": 1260,
+    "Date": "07-Sep-2017"
+  },
+  {
+    "Left": 19,
+    "Right": 1276,
+    "Date": "25-Dec-2016"
+  },
+  {
+    "Left": 82,
+    "Right": 1523,
+    "Date": "19-Mar-2017"
+  },
+  {
+    "Left": 90,
+    "Right": 833,
+    "Date": "26-Aug-2015"
+  },
+  {
+    "Left": 118,
+    "Right": 509,
+    "Date": "18-Jan-2017"
+  },
+  {
+    "Left": 36,
+    "Right": 586,
+    "Date": "14-Aug-2015"
+  },
+  {
+    "Left": 92,
+    "Right": 520,
+    "Date": "10-May-2017"
+  },
+  {
+    "Left": 17,
+    "Right": 252,
+    "Date": "06-Jun-2015"
+  },
+  {
+    "Left": 102,
+    "Right": 617,
+    "Date": "14-Apr-2017"
+  },
+  {
+    "Left": 25,
+    "Right": 1499,
+    "Date": "09-May-2017"
+  },
+  {
+    "Left": 14,
+    "Right": 709,
+    "Date": "28-Jan-2016"
+  },
+  {
+    "Left": 41,
+    "Right": 206,
+    "Date": "10-Aug-2017"
+  },
+  {
+    "Left": 96,
+    "Right": 1347,
+    "Date": "30-Mar-2016"
+  },
+  {
+    "Left": 123,
+    "Right": 424,
+    "Date": "26-Apr-2017"
+  },
+  {
+    "Left": 113,
+    "Right": 427,
+    "Date": "28-Dec-2016"
+  },
+  {
+    "Left": 84,
+    "Right": 219,
+    "Date": "29-Mar-2016"
+  },
+  {
+    "Left": 28,
+    "Right": 418,
+    "Date": "17-Jan-2016"
+  },
+  {
+    "Left": 113,
+    "Right": 698,
+    "Date": "05-Sep-2015"
+  },
+  {
+    "Left": 15,
+    "Right": 330,
+    "Date": "16-May-2016"
+  },
+  {
+    "Left": 128,
+    "Right": 1026,
+    "Date": "07-Mar-2016"
+  },
+  {
+    "Left": 26,
+    "Right": 1297,
+    "Date": "07-Dec-2015"
+  },
+  {
+    "Left": 111,
+    "Right": 429,
+    "Date": "14-May-2015"
+  },
+  {
+    "Left": 26,
+    "Right": 1600,
+    "Date": "06-Aug-2015"
+  },
+  {
+    "Left": 143,
+    "Right": 521,
+    "Date": "17-Mar-2015"
+  },
+  {
+    "Left": 87,
+    "Right": 469,
+    "Date": "02-Sep-2016"
+  },
+  {
+    "Left": 29,
+    "Right": 1306,
+    "Date": "29-Aug-2016"
+  },
+  {
+    "Left": 37,
+    "Right": 1457,
+    "Date": "06-Sep-2016"
+  },
+  {
+    "Left": 20,
+    "Right": 257,
+    "Date": "20-Jul-2015"
+  },
+  {
+    "Left": 104,
+    "Right": 880,
+    "Date": "07-Jul-2015"
+  },
+  {
+    "Left": 149,
+    "Right": 849,
+    "Date": "07-Feb-2017"
+  },
+  {
+    "Left": 61,
+    "Right": 1056,
+    "Date": "06-Jan-2015"
+  },
+  {
+    "Left": 137,
+    "Right": 1485,
+    "Date": "08-Mar-2017"
+  },
+  {
+    "Left": 4,
+    "Right": 922,
+    "Date": "20-Mar-2016"
+  },
+  {
+    "Left": 2,
+    "Right": 1287,
+    "Date": "14-Jun-2015"
+  },
+  {
+    "Left": 85,
+    "Right": 626,
+    "Date": "22-Oct-2017"
+  },
+  {
+    "Left": 137,
+    "Right": 1437,
+    "Date": "16-Apr-2015"
+  },
+  {
+    "Left": 71,
+    "Right": 495,
+    "Date": "29-Mar-2017"
+  },
+  {
+    "Left": 55,
+    "Right": 1091,
+    "Date": "15-Nov-2015"
+  },
+  {
+    "Left": 143,
+    "Right": 1285,
+    "Date": "12-Jul-2017"
+  },
+  {
+    "Left": 54,
+    "Right": 1004,
+    "Date": "19-Apr-2016"
+  },
+  {
+    "Left": 106,
+    "Right": 553,
+    "Date": "28-Jun-2015"
+  },
+  {
+    "Left": 114,
+    "Right": 758,
+    "Date": "02-Aug-2016"
+  },
+  {
+    "Left": 97,
+    "Right": 1387,
+    "Date": "16-Mar-2017"
+  },
+  {
+    "Left": 145,
+    "Right": 1123,
+    "Date": "25-Aug-2015"
+  },
+  {
+    "Left": 54,
+    "Right": 1385,
+    "Date": "28-Dec-2017"
+  },
+  {
+    "Left": 61,
+    "Right": 680,
+    "Date": "23-Apr-2016"
+  },
+  {
+    "Left": 110,
+    "Right": 1290,
+    "Date": "24-Jan-2017"
+  },
+  {
+    "Left": 138,
+    "Right": 1614,
+    "Date": "07-Jul-2015"
+  },
+  {
+    "Left": 96,
+    "Right": 908,
+    "Date": "17-Mar-2017"
+  },
+  {
+    "Left": 118,
+    "Right": 456,
+    "Date": "13-Jun-2015"
+  },
+  {
+    "Left": 3,
+    "Right": 830,
+    "Date": "27-Feb-2016"
+  },
+  {
+    "Left": 74,
+    "Right": 1136,
+    "Date": "14-Dec-2015"
+  },
+  {
+    "Left": 100,
+    "Right": 1596,
+    "Date": "09-Feb-2015"
+  },
+  {
+    "Left": 55,
+    "Right": 193,
+    "Date": "28-Jun-2015"
+  },
+  {
+    "Left": 14,
+    "Right": 1222,
+    "Date": "13-Nov-2017"
+  },
+  {
+    "Left": 50,
+    "Right": 1458,
+    "Date": "28-Apr-2017"
+  },
+  {
+    "Left": 7,
+    "Right": 157,
+    "Date": "01-Jul-2016"
+  },
+  {
+    "Left": 133,
+    "Right": 998,
+    "Date": "05-Jul-2015"
+  },
+  {
+    "Left": 101,
+    "Right": 1447,
+    "Date": "01-Aug-2017"
+  },
+  {
+    "Left": 69,
+    "Right": 1641,
+    "Date": "16-Jun-2017"
+  },
+  {
+    "Left": 100,
+    "Right": 260,
+    "Date": "19-Jan-2016"
+  },
+  {
+    "Left": 148,
+    "Right": 1107,
+    "Date": "18-Apr-2016"
+  },
+  {
+    "Left": 81,
+    "Right": 1486,
+    "Date": "31-Jul-2017"
+  },
+  {
+    "Left": 109,
+    "Right": 799,
+    "Date": "27-Jul-2017"
+  },
+  {
+    "Left": 86,
+    "Right": 318,
+    "Date": "18-Oct-2015"
+  },
+  {
+    "Left": 73,
+    "Right": 640,
+    "Date": "26-Aug-2017"
+  },
+  {
+    "Left": 103,
+    "Right": 398,
+    "Date": "16-Sep-2015"
+  },
+  {
+    "Left": 93,
+    "Right": 539,
+    "Date": "24-Nov-2015"
+  },
+  {
+    "Left": 135,
+    "Right": 340,
+    "Date": "22-Aug-2017"
+  },
+  {
+    "Left": 97,
+    "Right": 1528,
+    "Date": "27-Nov-2015"
+  },
+  {
+    "Left": 115,
+    "Right": 1570,
+    "Date": "06-Feb-2015"
+  },
+  {
+    "Left": 17,
+    "Right": 233,
+    "Date": "07-Apr-2017"
+  },
+  {
+    "Left": 138,
+    "Right": 1468,
+    "Date": "29-Feb-2016"
+  },
+  {
+    "Left": 95,
+    "Right": 1097,
+    "Date": "23-Jul-2015"
+  },
+  {
+    "Left": 69,
+    "Right": 350,
+    "Date": "08-Feb-2017"
+  },
+  {
+    "Left": 45,
+    "Right": 389,
+    "Date": "23-Apr-2017"
+  },
+  {
+    "Left": 81,
+    "Right": 757,
+    "Date": "16-Oct-2015"
+  },
+  {
+    "Left": 105,
+    "Right": 754,
+    "Date": "02-Sep-2016"
+  },
+  {
+    "Left": 86,
+    "Right": 1074,
+    "Date": "12-Mar-2015"
+  },
+  {
+    "Left": 19,
+    "Right": 981,
+    "Date": "12-Jun-2016"
+  },
+  {
+    "Left": 141,
+    "Right": 712,
+    "Date": "14-Nov-2015"
+  },
+  {
+    "Left": 135,
+    "Right": 184,
+    "Date": "19-Aug-2015"
+  },
+  {
+    "Left": 94,
+    "Right": 796,
+    "Date": "02-Nov-2016"
+  },
+  {
+    "Left": 114,
+    "Right": 1415,
+    "Date": "30-Dec-2015"
+  },
+  {
+    "Left": 76,
+    "Right": 1455,
+    "Date": "18-Oct-2017"
+  },
+  {
+    "Left": 53,
+    "Right": 1280,
+    "Date": "25-May-2016"
+  },
+  {
+    "Left": 15,
+    "Right": 744,
+    "Date": "03-Apr-2015"
+  },
+  {
+    "Left": 147,
+    "Right": 1325,
+    "Date": "27-Apr-2015"
+  },
+  {
+    "Left": 148,
+    "Right": 1204,
+    "Date": "10-Mar-2015"
+  },
+  {
+    "Left": 42,
+    "Right": 1607,
+    "Date": "02-Mar-2017"
+  },
+  {
+    "Left": 70,
+    "Right": 297,
+    "Date": "24-Aug-2015"
+  },
+  {
+    "Left": 37,
+    "Right": 856,
+    "Date": "24-Jul-2016"
+  },
+  {
+    "Left": 31,
+    "Right": 247,
+    "Date": "08-Oct-2017"
+  },
+  {
+    "Left": 91,
+    "Right": 722,
+    "Date": "12-Apr-2016"
+  },
+  {
+    "Left": 40,
+    "Right": 671,
+    "Date": "07-Oct-2015"
+  },
+  {
+    "Left": 71,
+    "Right": 171,
+    "Date": "11-Sep-2016"
+  },
+  {
+    "Left": 12,
+    "Right": 522,
+    "Date": "18-May-2016"
+  },
+  {
+    "Left": 136,
+    "Right": 800,
+    "Date": "21-Oct-2016"
+  },
+  {
+    "Left": 82,
+    "Right": 1591,
+    "Date": "17-Oct-2017"
+  },
+  {
+    "Left": 142,
+    "Right": 1117,
+    "Date": "30-Jun-2016"
+  },
+  {
+    "Left": 107,
+    "Right": 1032,
+    "Date": "17-Sep-2017"
+  },
+  {
+    "Left": 102,
+    "Right": 1520,
+    "Date": "07-Mar-2017"
+  },
+  {
+    "Left": 61,
+    "Right": 1368,
+    "Date": "14-Nov-2015"
+  },
+  {
+    "Left": 145,
+    "Right": 1578,
+    "Date": "12-Aug-2015"
+  },
+  {
+    "Left": 84,
+    "Right": 986,
+    "Date": "28-Aug-2015"
+  },
+  {
+    "Left": 138,
+    "Right": 1627,
+    "Date": "01-Jul-2017"
+  },
+  {
+    "Left": 109,
+    "Right": 836,
+    "Date": "05-Apr-2016"
+  },
+  {
+    "Left": 129,
+    "Right": 1196,
+    "Date": "31-Dec-2016"
+  },
+  {
+    "Left": 15,
+    "Right": 457,
+    "Date": "16-Jun-2017"
+  },
+  {
+    "Left": 131,
+    "Right": 202,
+    "Date": "03-Nov-2017"
+  },
+  {
+    "Left": 14,
+    "Right": 577,
+    "Date": "22-Nov-2015"
+  },
+  {
+    "Left": 148,
+    "Right": 483,
+    "Date": "11-Jun-2017"
+  },
+  {
+    "Left": 131,
+    "Right": 1242,
+    "Date": "17-Dec-2015"
+  },
+  {
+    "Left": 138,
+    "Right": 884,
+    "Date": "06-Jan-2015"
+  },
+  {
+    "Left": 60,
+    "Right": 1566,
+    "Date": "01-Jan-2016"
+  },
+  {
+    "Left": 144,
+    "Right": 1356,
+    "Date": "19-Apr-2017"
+  },
+  {
+    "Left": 147,
+    "Right": 1267,
+    "Date": "04-Aug-2017"
+  },
+  {
+    "Left": 39,
+    "Right": 857,
+    "Date": "15-Sep-2017"
+  },
+  {
+    "Left": 59,
+    "Right": 263,
+    "Date": "27-Dec-2016"
+  },
+  {
+    "Left": 125,
+    "Right": 1391,
+    "Date": "15-Oct-2016"
+  },
+  {
+    "Left": 49,
+    "Right": 1061,
+    "Date": "01-Mar-2016"
+  },
+  {
+    "Left": 143,
+    "Right": 253,
+    "Date": "14-Aug-2016"
+  },
+  {
+    "Left": 129,
+    "Right": 648,
+    "Date": "16-Jan-2017"
+  },
+  {
+    "Left": 108,
+    "Right": 446,
+    "Date": "17-Apr-2016"
+  },
+  {
+    "Left": 79,
+    "Right": 461,
+    "Date": "14-Jun-2015"
+  },
+  {
+    "Left": 34,
+    "Right": 687,
+    "Date": "24-Jan-2017"
+  },
+  {
+    "Left": 126,
+    "Right": 1639,
+    "Date": "12-Sep-2015"
+  },
+  {
+    "Left": 93,
+    "Right": 942,
+    "Date": "22-Jul-2016"
+  },
+  {
+    "Left": 107,
+    "Right": 1548,
+    "Date": "03-Nov-2017"
+  },
+  {
+    "Left": 97,
+    "Right": 489,
+    "Date": "13-Jul-2016"
+  },
+  {
+    "Left": 68,
+    "Right": 1587,
+    "Date": "09-Feb-2017"
+  },
+  {
+    "Left": 81,
+    "Right": 983,
+    "Date": "20-May-2016"
+  },
+  {
+    "Left": 91,
+    "Right": 904,
+    "Date": "09-Mar-2015"
+  },
+  {
+    "Left": 101,
+    "Right": 1601,
+    "Date": "14-Aug-2015"
+  },
+  {
+    "Left": 65,
+    "Right": 1216,
+    "Date": "16-Nov-2017"
+  },
+  {
+    "Left": 75,
+    "Right": 944,
+    "Date": "10-Jun-2015"
+  },
+  {
+    "Left": 71,
+    "Right": 674,
+    "Date": "13-Feb-2015"
+  },
+  {
+    "Left": 106,
+    "Right": 1598,
+    "Date": "27-Mar-2017"
+  },
+  {
+    "Left": 17,
+    "Right": 1080,
+    "Date": "18-Oct-2017"
+  },
+  {
+    "Left": 80,
+    "Right": 1436,
+    "Date": "20-Apr-2015"
+  },
+  {
+    "Left": 27,
+    "Right": 644,
+    "Date": "15-Jun-2015"
+  },
+  {
+    "Left": 93,
+    "Right": 1342,
+    "Date": "23-Oct-2016"
+  },
+  {
+    "Left": 88,
+    "Right": 1311,
+    "Date": "03-Jun-2016"
+  },
+  {
+    "Left": 15,
+    "Right": 1625,
+    "Date": "10-Nov-2016"
+  },
+  {
+    "Left": 140,
+    "Right": 761,
+    "Date": "19-Oct-2017"
+  },
+  {
+    "Left": 106,
+    "Right": 844,
+    "Date": "02-Apr-2015"
+  },
+  {
+    "Left": 110,
+    "Right": 624,
+    "Date": "26-Jun-2017"
+  },
+  {
+    "Left": 71,
+    "Right": 654,
+    "Date": "10-Apr-2017"
+  },
+  {
+    "Left": 35,
+    "Right": 1012,
+    "Date": "28-Sep-2015"
+  },
+  {
+    "Left": 46,
+    "Right": 962,
+    "Date": "26-Dec-2016"
+  },
+  {
+    "Left": 18,
+    "Right": 1348,
+    "Date": "28-Dec-2017"
+  },
+  {
+    "Left": 83,
+    "Right": 1507,
+    "Date": "17-Aug-2016"
+  },
+  {
+    "Left": 13,
+    "Right": 1177,
+    "Date": "14-Dec-2016"
+  },
+  {
+    "Left": 112,
+    "Right": 187,
+    "Date": "20-Jan-2017"
+  },
+  {
+    "Left": 68,
+    "Right": 229,
+    "Date": "22-May-2015"
+  },
+  {
+    "Left": 118,
+    "Right": 455,
+    "Date": "13-Mar-2016"
+  },
+  {
+    "Left": 54,
+    "Right": 834,
+    "Date": "04-Aug-2017"
+  },
+  {
+    "Left": 125,
+    "Right": 1105,
+    "Date": "10-Dec-2017"
+  },
+  {
+    "Left": 147,
+    "Right": 1483,
+    "Date": "15-Sep-2016"
+  },
+  {
+    "Left": 58,
+    "Right": 414,
+    "Date": "19-Nov-2015"
+  },
+  {
+    "Left": 3,
+    "Right": 1442,
+    "Date": "11-Aug-2015"
+  },
+  {
+    "Left": 130,
+    "Right": 173,
+    "Date": "25-Sep-2015"
+  },
+  {
+    "Left": 117,
+    "Right": 1143,
+    "Date": "27-Dec-2016"
+  },
+  {
+    "Left": 97,
+    "Right": 1364,
+    "Date": "07-May-2016"
+  },
+  {
+    "Left": 97,
+    "Right": 611,
+    "Date": "06-Mar-2016"
+  },
+  {
+    "Left": 95,
+    "Right": 199,
+    "Date": "14-Feb-2015"
+  },
+  {
+    "Left": 140,
+    "Right": 186,
+    "Date": "03-Jun-2016"
+  },
+  {
+    "Left": 118,
+    "Right": 524,
+    "Date": "28-Mar-2016"
+  },
+  {
+    "Left": 114,
+    "Right": 673,
+    "Date": "07-Mar-2017"
+  },
+  {
+    "Left": 84,
+    "Right": 825,
+    "Date": "14-Nov-2016"
+  },
+  {
+    "Left": 136,
+    "Right": 1574,
+    "Date": "17-Feb-2015"
+  },
+  {
+    "Left": 138,
+    "Right": 355,
+    "Date": "04-Apr-2017"
+  },
+  {
+    "Left": 71,
+    "Right": 449,
+    "Date": "03-Nov-2016"
+  },
+  {
+    "Left": 78,
+    "Right": 1628,
+    "Date": "23-Jul-2016"
+  },
+  {
+    "Left": 57,
+    "Right": 1429,
+    "Date": "03-Jun-2015"
+  },
+  {
+    "Left": 14,
+    "Right": 431,
+    "Date": "10-May-2015"
+  },
+  {
+    "Left": 93,
+    "Right": 1533,
+    "Date": "21-Mar-2017"
+  },
+  {
+    "Left": 3,
+    "Right": 1361,
+    "Date": "20-Dec-2016"
+  },
+  {
+    "Left": 123,
+    "Right": 1357,
+    "Date": "16-May-2016"
+  },
+  {
+    "Left": 118,
+    "Right": 300,
+    "Date": "13-Feb-2017"
+  },
+  {
+    "Left": 52,
+    "Right": 1572,
+    "Date": "05-Jan-2015"
+  },
+  {
+    "Left": 36,
+    "Right": 410,
+    "Date": "21-Dec-2015"
+  },
+  {
+    "Left": 144,
+    "Right": 371,
+    "Date": "02-Jul-2015"
+  },
+  {
+    "Left": 84,
+    "Right": 841,
+    "Date": "20-Feb-2017"
+  },
+  {
+    "Left": 4,
+    "Right": 604,
+    "Date": "24-Jul-2016"
+  },
+  {
+    "Left": 77,
+    "Right": 610,
+    "Date": "14-Aug-2017"
+  },
+  {
+    "Left": 26,
+    "Right": 1238,
+    "Date": "01-Apr-2017"
+  },
+  {
+    "Left": 53,
+    "Right": 326,
+    "Date": "13-Sep-2016"
+  },
+  {
+    "Left": 49,
+    "Right": 308,
+    "Date": "05-Jan-2015"
+  },
+  {
+    "Left": 30,
+    "Right": 1315,
+    "Date": "08-Nov-2017"
+  },
+  {
+    "Left": 121,
+    "Right": 1263,
+    "Date": "23-Aug-2017"
+  },
+  {
+    "Left": 23,
+    "Right": 420,
+    "Date": "08-Jan-2017"
+  },
+  {
+    "Left": 54,
+    "Right": 160,
+    "Date": "17-Dec-2015"
+  },
+  {
+    "Left": 99,
+    "Right": 288,
+    "Date": "29-Mar-2017"
+  },
+  {
+    "Left": 21,
+    "Right": 1595,
+    "Date": "14-Dec-2016"
+  },
+  {
+    "Left": 39,
+    "Right": 1254,
+    "Date": "16-Feb-2017"
+  },
+  {
+    "Left": 26,
+    "Right": 751,
+    "Date": "23-Feb-2017"
+  },
+  {
+    "Left": 117,
+    "Right": 793,
+    "Date": "22-Mar-2016"
+  },
+  {
+    "Left": 43,
+    "Right": 541,
+    "Date": "03-Apr-2016"
+  },
+  {
+    "Left": 145,
+    "Right": 1616,
+    "Date": "05-Oct-2017"
+  },
+  {
+    "Left": 81,
+    "Right": 1561,
+    "Date": "31-Dec-2015"
+  },
+  {
+    "Left": 26,
+    "Right": 485,
+    "Date": "11-Jul-2017"
+  },
+  {
+    "Left": 124,
+    "Right": 939,
+    "Date": "29-Jul-2017"
+  },
+  {
+    "Left": 96,
+    "Right": 435,
+    "Date": "01-May-2016"
+  },
+  {
+    "Left": 60,
+    "Right": 895,
+    "Date": "03-Feb-2015"
+  },
+  {
+    "Left": 102,
+    "Right": 1309,
+    "Date": "04-Nov-2015"
+  },
+  {
+    "Left": 99,
+    "Right": 1478,
+    "Date": "23-Feb-2017"
+  },
+  {
+    "Left": 74,
+    "Right": 1544,
+    "Date": "11-Jul-2016"
+  },
+  {
+    "Left": 13,
+    "Right": 592,
+    "Date": "07-Sep-2015"
+  },
+  {
+    "Left": 94,
+    "Right": 1562,
+    "Date": "05-Feb-2017"
+  },
+  {
+    "Left": 60,
+    "Right": 307,
+    "Date": "17-Dec-2017"
+  },
+  {
+    "Left": 23,
+    "Right": 859,
+    "Date": "25-May-2017"
+  },
+  {
+    "Left": 127,
+    "Right": 776,
+    "Date": "10-Jan-2017"
+  },
+  {
+    "Left": 88,
+    "Right": 395,
+    "Date": "11-Oct-2017"
+  },
+  {
+    "Left": 106,
+    "Right": 1037,
+    "Date": "07-Jun-2016"
+  },
+  {
+    "Left": 129,
+    "Right": 301,
+    "Date": "08-Feb-2017"
+  },
+  {
+    "Left": 108,
+    "Right": 450,
+    "Date": "24-Mar-2017"
+  },
+  {
+    "Left": 24,
+    "Right": 477,
+    "Date": "21-Dec-2017"
+  },
+  {
+    "Left": 101,
+    "Right": 1227,
+    "Date": "12-Jan-2016"
+  },
+  {
+    "Left": 102,
+    "Right": 570,
+    "Date": "13-Sep-2015"
+  },
+  {
+    "Left": 15,
+    "Right": 1300,
+    "Date": "15-Oct-2016"
+  },
+  {
+    "Left": 25,
+    "Right": 1489,
+    "Date": "06-Jul-2015"
+  },
+  {
+    "Left": 76,
+    "Right": 1644,
+    "Date": "14-Nov-2015"
+  },
+  {
+    "Left": 44,
+    "Right": 816,
+    "Date": "07-Nov-2015"
+  },
+  {
+    "Left": 96,
+    "Right": 1087,
+    "Date": "26-Jun-2016"
+  },
+  {
+    "Left": 20,
+    "Right": 1131,
+    "Date": "30-Dec-2016"
+  },
+  {
+    "Left": 119,
+    "Right": 1360,
+    "Date": "28-Dec-2015"
+  },
+  {
+    "Left": 34,
+    "Right": 1647,
+    "Date": "30-May-2017"
+  },
+  {
+    "Left": 77,
+    "Right": 771,
+    "Date": "22-Mar-2017"
+  },
+  {
+    "Left": 38,
+    "Right": 513,
+    "Date": "14-May-2017"
+  },
+  {
+    "Left": 57,
+    "Right": 1264,
+    "Date": "12-Jan-2017"
+  },
+  {
+    "Left": 146,
+    "Right": 1444,
+    "Date": "23-Nov-2015"
+  },
+  {
+    "Left": 10,
+    "Right": 1284,
+    "Date": "02-Feb-2017"
+  },
+  {
+    "Left": 53,
+    "Right": 630,
+    "Date": "22-Mar-2017"
+  },
+  {
+    "Left": 77,
+    "Right": 1517,
+    "Date": "13-Mar-2015"
+  },
+  {
+    "Left": 108,
+    "Right": 608,
+    "Date": "29-Sep-2016"
+  },
+  {
+    "Left": 5,
+    "Right": 1463,
+    "Date": "23-Apr-2015"
+  },
+  {
+    "Left": 7,
+    "Right": 1235,
+    "Date": "07-Jan-2017"
+  },
+  {
+    "Left": 130,
+    "Right": 1519,
+    "Date": "24-Dec-2016"
+  },
+  {
+    "Left": 141,
+    "Right": 878,
+    "Date": "08-Sep-2017"
+  },
+  {
+    "Left": 93,
+    "Right": 774,
+    "Date": "29-Oct-2017"
+  },
+  {
+    "Left": 55,
+    "Right": 1563,
+    "Date": "06-Jan-2016"
+  },
+  {
+    "Left": 111,
+    "Right": 1089,
+    "Date": "05-Apr-2017"
+  },
+  {
+    "Left": 86,
+    "Right": 1435,
+    "Date": "27-May-2015"
+  },
+  {
+    "Left": 64,
+    "Right": 387,
+    "Date": "03-Nov-2016"
+  },
+  {
+    "Left": 44,
+    "Right": 1092,
+    "Date": "28-May-2015"
+  },
+  {
+    "Left": 128,
+    "Right": 434,
+    "Date": "20-Nov-2017"
+  },
+  {
+    "Left": 47,
+    "Right": 1176,
+    "Date": "10-Jul-2016"
+  },
+  {
+    "Left": 89,
+    "Right": 207,
+    "Date": "06-Apr-2017"
+  },
+  {
+    "Left": 52,
+    "Right": 601,
+    "Date": "08-Mar-2017"
+  },
+  {
+    "Left": 35,
+    "Right": 361,
+    "Date": "21-Jan-2015"
+  },
+  {
+    "Left": 57,
+    "Right": 1245,
+    "Date": "02-Jan-2015"
+  },
+  {
+    "Left": 75,
+    "Right": 746,
+    "Date": "20-Oct-2015"
+  },
+  {
+    "Left": 127,
+    "Right": 1189,
+    "Date": "22-Apr-2016"
+  },
+  {
+    "Left": 45,
+    "Right": 198,
+    "Date": "01-Jun-2016"
+  },
+  {
+    "Left": 13,
+    "Right": 691,
+    "Date": "08-Dec-2016"
+  },
+  {
+    "Left": 49,
+    "Right": 600,
+    "Date": "19-Jul-2015"
+  },
+  {
+    "Left": 116,
+    "Right": 814,
+    "Date": "09-Dec-2017"
+  },
+  {
+    "Left": 20,
+    "Right": 1202,
+    "Date": "21-Nov-2017"
+  },
+  {
+    "Left": 10,
+    "Right": 466,
+    "Date": "17-Aug-2016"
+  },
+  {
+    "Left": 23,
+    "Right": 598,
+    "Date": "31-May-2015"
+  },
+  {
+    "Left": 105,
+    "Right": 676,
+    "Date": "18-Jan-2016"
+  },
+  {
+    "Left": 6,
+    "Right": 926,
+    "Date": "10-Mar-2015"
+  },
+  {
+    "Left": 84,
+    "Right": 781,
+    "Date": "23-Jan-2015"
+  },
+  {
+    "Left": 49,
+    "Right": 702,
+    "Date": "14-Apr-2016"
+  },
+  {
+    "Left": 40,
+    "Right": 666,
+    "Date": "20-Nov-2016"
+  },
+  {
+    "Left": 30,
+    "Right": 811,
+    "Date": "12-Nov-2015"
+  },
+  {
+    "Left": 132,
+    "Right": 556,
+    "Date": "22-Feb-2015"
+  },
+  {
+    "Left": 36,
+    "Right": 1288,
+    "Date": "22-Jan-2017"
+  },
+  {
+    "Left": 3,
+    "Right": 806,
+    "Date": "31-Oct-2016"
+  },
+  {
+    "Left": 125,
+    "Right": 1473,
+    "Date": "02-Sep-2015"
+  },
+  {
+    "Left": 33,
+    "Right": 194,
+    "Date": "01-Oct-2017"
+  },
+  {
+    "Left": 96,
+    "Right": 572,
+    "Date": "11-Mar-2017"
+  },
+  {
+    "Left": 55,
+    "Right": 1575,
+    "Date": "20-Jul-2016"
+  },
+  {
+    "Left": 144,
+    "Right": 1619,
+    "Date": "02-Nov-2015"
+  },
+  {
+    "Left": 143,
+    "Right": 972,
+    "Date": "22-Nov-2015"
+  },
+  {
+    "Left": 53,
+    "Right": 440,
+    "Date": "28-Sep-2016"
+  },
+  {
+    "Left": 81,
+    "Right": 1266,
+    "Date": "12-Mar-2016"
+  },
+  {
+    "Left": 97,
+    "Right": 1359,
+    "Date": "29-May-2015"
+  },
+  {
+    "Left": 110,
+    "Right": 670,
+    "Date": "26-Jan-2016"
+  },
+  {
+    "Left": 43,
+    "Right": 898,
+    "Date": "17-Feb-2015"
+  },
+  {
+    "Left": 103,
+    "Right": 619,
+    "Date": "19-Nov-2017"
+  },
+  {
+    "Left": 40,
+    "Right": 911,
+    "Date": "09-Oct-2016"
+  },
+  {
+    "Left": 112,
+    "Right": 778,
+    "Date": "28-May-2015"
+  },
+  {
+    "Left": 135,
+    "Right": 547,
+    "Date": "19-Mar-2017"
+  },
+  {
+    "Left": 140,
+    "Right": 602,
+    "Date": "29-Jun-2017"
+  },
+  {
+    "Left": 123,
+    "Right": 1303,
+    "Date": "18-May-2016"
+  },
+  {
+    "Left": 107,
+    "Right": 437,
+    "Date": "24-Feb-2017"
+  },
+  {
+    "Left": 97,
+    "Right": 250,
+    "Date": "05-Dec-2016"
+  },
+  {
+    "Left": 109,
+    "Right": 815,
+    "Date": "29-Mar-2017"
+  },
+  {
+    "Left": 102,
+    "Right": 1532,
+    "Date": "07-Dec-2016"
+  },
+  {
+    "Left": 66,
+    "Right": 958,
+    "Date": "29-Apr-2015"
+  },
+  {
+    "Left": 106,
+    "Right": 1409,
+    "Date": "24-Sep-2016"
+  },
+  {
+    "Left": 49,
+    "Right": 1557,
+    "Date": "07-Nov-2017"
+  },
+  {
+    "Left": 56,
+    "Right": 876,
+    "Date": "16-Jun-2015"
+  },
+  {
+    "Left": 40,
+    "Right": 445,
+    "Date": "13-Sep-2017"
+  },
+  {
+    "Left": 33,
+    "Right": 948,
+    "Date": "18-Apr-2015"
+  },
+  {
+    "Left": 109,
+    "Right": 1330,
+    "Date": "16-May-2016"
+  },
+  {
+    "Left": 148,
+    "Right": 451,
+    "Date": "21-Mar-2016"
+  },
+  {
+    "Left": 67,
+    "Right": 785,
+    "Date": "21-Jul-2017"
+  },
+  {
+    "Left": 139,
+    "Right": 885,
+    "Date": "06-Aug-2015"
+  },
+  {
+    "Left": 33,
+    "Right": 690,
+    "Date": "10-Apr-2016"
+  },
+  {
+    "Left": 133,
+    "Right": 226,
+    "Date": "01-Dec-2017"
+  },
+  {
+    "Left": 135,
+    "Right": 380,
+    "Date": "13-Jun-2017"
+  },
+  {
+    "Left": 61,
+    "Right": 1632,
+    "Date": "10-Feb-2015"
+  },
+  {
+    "Left": 31,
+    "Right": 789,
+    "Date": "05-Jun-2015"
+  },
+  {
+    "Left": 93,
+    "Right": 1609,
+    "Date": "22-Oct-2017"
+  },
+  {
+    "Left": 107,
+    "Right": 280,
+    "Date": "27-May-2016"
+  },
+  {
+    "Left": 68,
+    "Right": 798,
+    "Date": "22-Jul-2015"
+  },
+  {
+    "Left": 73,
+    "Right": 699,
+    "Date": "01-Apr-2016"
+  },
+  {
+    "Left": 141,
+    "Right": 729,
+    "Date": "04-Aug-2015"
+  },
+  {
+    "Left": 114,
+    "Right": 1615,
+    "Date": "27-Oct-2016"
+  },
+  {
+    "Left": 28,
+    "Right": 737,
+    "Date": "20-Jul-2016"
+  },
+  {
+    "Left": 55,
+    "Right": 1313,
+    "Date": "21-Jul-2017"
+  },
+  {
+    "Left": 127,
+    "Right": 1031,
+    "Date": "06-Sep-2017"
+  },
+  {
+    "Left": 2,
+    "Right": 973,
+    "Date": "20-May-2016"
+  },
+  {
+    "Left": 98,
+    "Right": 1390,
+    "Date": "25-Apr-2016"
+  },
+  {
+    "Left": 135,
+    "Right": 432,
+    "Date": "01-May-2015"
+  },
+  {
+    "Left": 27,
+    "Right": 284,
+    "Date": "21-Jul-2015"
+  },
+  {
+    "Left": 65,
+    "Right": 1029,
+    "Date": "21-Oct-2016"
+  },
+  {
+    "Left": 129,
+    "Right": 1208,
+    "Date": "22-Feb-2015"
+  },
+  {
+    "Left": 74,
+    "Right": 1035,
+    "Date": "22-Aug-2017"
+  },
+  {
+    "Left": 98,
+    "Right": 426,
+    "Date": "10-Dec-2017"
+  },
+  {
+    "Left": 34,
+    "Right": 463,
+    "Date": "07-Oct-2015"
+  },
+  {
+    "Left": 134,
+    "Right": 1224,
+    "Date": "26-Aug-2017"
+  },
+  {
+    "Left": 88,
+    "Right": 1412,
+    "Date": "12-Feb-2016"
+  },
+  {
+    "Left": 80,
+    "Right": 1059,
+    "Date": "29-Aug-2015"
+  },
+  {
+    "Left": 25,
+    "Right": 657,
+    "Date": "22-Nov-2015"
+  },
+  {
+    "Left": 136,
+    "Right": 1072,
+    "Date": "01-Oct-2017"
+  },
+  {
+    "Left": 130,
+    "Right": 1612,
+    "Date": "30-Jul-2015"
+  },
+  {
+    "Left": 86,
+    "Right": 550,
+    "Date": "06-Jul-2017"
+  },
+  {
+    "Left": 70,
+    "Right": 447,
+    "Date": "22-Mar-2017"
+  },
+  {
+    "Left": 35,
+    "Right": 1109,
+    "Date": "27-Jan-2015"
+  },
+  {
+    "Left": 32,
+    "Right": 1320,
+    "Date": "15-Apr-2015"
+  },
+  {
+    "Left": 15,
+    "Right": 1495,
+    "Date": "11-Oct-2016"
+  },
+  {
+    "Left": 58,
+    "Right": 533,
+    "Date": "20-Feb-2016"
+  },
+  {
+    "Left": 12,
+    "Right": 1038,
+    "Date": "01-Mar-2016"
+  },
+  {
+    "Left": 17,
+    "Right": 328,
+    "Date": "05-Apr-2016"
+  },
+  {
+    "Left": 119,
+    "Right": 1064,
+    "Date": "23-Nov-2015"
+  },
+  {
+    "Left": 99,
+    "Right": 453,
+    "Date": "24-Jun-2016"
+  },
+  {
+    "Left": 122,
+    "Right": 1162,
+    "Date": "04-Jun-2017"
+  },
+  {
+    "Left": 99,
+    "Right": 582,
+    "Date": "16-Jan-2016"
+  },
+  {
+    "Left": 7,
+    "Right": 1020,
+    "Date": "03-Dec-2016"
+  },
+  {
+    "Left": 141,
+    "Right": 1286,
+    "Date": "16-Feb-2015"
+  },
+  {
+    "Left": 13,
+    "Right": 241,
+    "Date": "20-Jul-2016"
+  },
+  {
+    "Left": 46,
+    "Right": 1133,
+    "Date": "24-Jan-2017"
+  },
+  {
+    "Left": 137,
+    "Right": 1334,
+    "Date": "24-Aug-2017"
+  },
+  {
+    "Left": 30,
+    "Right": 1432,
+    "Date": "03-Feb-2016"
+  },
+  {
+    "Left": 36,
+    "Right": 697,
+    "Date": "22-Jan-2016"
+  },
+  {
+    "Left": 15,
+    "Right": 549,
+    "Date": "07-May-2017"
+  },
+  {
+    "Left": 63,
+    "Right": 653,
+    "Date": "03-May-2015"
+  },
+  {
+    "Left": 77,
+    "Right": 1481,
+    "Date": "12-Jun-2016"
+  },
+  {
+    "Left": 112,
+    "Right": 1047,
+    "Date": "26-Mar-2016"
+  },
+  {
+    "Left": 141,
+    "Right": 170,
+    "Date": "31-Jul-2017"
+  },
+  {
+    "Left": 111,
+    "Right": 590,
+    "Date": "28-Jun-2017"
+  },
+  {
+    "Left": 85,
+    "Right": 1083,
+    "Date": "15-Oct-2017"
+  },
+  {
+    "Left": 77,
+    "Right": 831,
+    "Date": "15-Mar-2016"
+  },
+  {
+    "Left": 76,
+    "Right": 1028,
+    "Date": "11-Jul-2017"
+  },
+  {
+    "Left": 48,
+    "Right": 497,
+    "Date": "08-Oct-2017"
+  },
+  {
+    "Left": 70,
+    "Right": 693,
+    "Date": "07-Apr-2015"
+  },
+  {
+    "Left": 116,
+    "Right": 1475,
+    "Date": "02-Dec-2015"
+  },
+  {
+    "Left": 148,
+    "Right": 565,
+    "Date": "29-Nov-2015"
+  },
+  {
+    "Left": 149,
+    "Right": 1274,
+    "Date": "09-Jun-2016"
+  },
+  {
+    "Left": 58,
+    "Right": 504,
+    "Date": "13-Jun-2015"
+  },
+  {
+    "Left": 40,
+    "Right": 717,
+    "Date": "20-May-2015"
+  },
+  {
+    "Left": 139,
+    "Right": 765,
+    "Date": "11-Apr-2016"
+  },
+  {
+    "Left": 117,
+    "Right": 838,
+    "Date": "24-Oct-2015"
+  },
+  {
+    "Left": 118,
+    "Right": 976,
+    "Date": "06-Dec-2016"
+  },
+  {
+    "Left": 27,
+    "Right": 1219,
+    "Date": "28-Jun-2017"
+  },
+  {
+    "Left": 79,
+    "Right": 636,
+    "Date": "05-Jan-2017"
+  },
+  {
+    "Left": 84,
+    "Right": 425,
+    "Date": "04-Oct-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1638,
+    "Date": "29-Nov-2016"
+  },
+  {
+    "Left": 36,
+    "Right": 566,
+    "Date": "01-Feb-2017"
+  },
+  {
+    "Left": 105,
+    "Right": 1090,
+    "Date": "17-Nov-2015"
+  },
+  {
+    "Left": 145,
+    "Right": 984,
+    "Date": "24-Feb-2015"
+  },
+  {
+    "Left": 57,
+    "Right": 239,
+    "Date": "23-Dec-2016"
+  },
+  {
+    "Left": 129,
+    "Right": 1336,
+    "Date": "08-Dec-2017"
+  },
+  {
+    "Left": 2,
+    "Right": 743,
+    "Date": "03-Jul-2016"
+  },
+  {
+    "Left": 78,
+    "Right": 220,
+    "Date": "06-Feb-2015"
+  },
+  {
+    "Left": 116,
+    "Right": 748,
+    "Date": "07-Dec-2017"
+  },
+  {
+    "Left": 138,
+    "Right": 213,
+    "Date": "27-Dec-2016"
+  },
+  {
+    "Left": 84,
+    "Right": 1199,
+    "Date": "17-Jan-2016"
+  },
+  {
+    "Left": 41,
+    "Right": 462,
+    "Date": "19-Mar-2017"
+  },
+  {
+    "Left": 110,
+    "Right": 1460,
+    "Date": "01-Jan-2015"
+  },
+  {
+    "Left": 3,
+    "Right": 1503,
+    "Date": "10-Sep-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 1501,
+    "Date": "03-Aug-2017"
+  },
+  {
+    "Left": 24,
+    "Right": 337,
+    "Date": "31-Mar-2015"
+  },
+  {
+    "Left": 145,
+    "Right": 591,
+    "Date": "05-Sep-2017"
+  },
+  {
+    "Left": 74,
+    "Right": 772,
+    "Date": "12-Nov-2016"
+  },
+  {
+    "Left": 132,
+    "Right": 209,
+    "Date": "17-Jan-2016"
+  },
+  {
+    "Left": 35,
+    "Right": 563,
+    "Date": "10-Feb-2016"
+  },
+  {
+    "Left": 4,
+    "Right": 724,
+    "Date": "15-Jan-2016"
+  },
+  {
+    "Left": 88,
+    "Right": 1063,
+    "Date": "27-May-2016"
+  },
+  {
+    "Left": 126,
+    "Right": 1333,
+    "Date": "29-Apr-2016"
+  },
+  {
+    "Left": 64,
+    "Right": 433,
+    "Date": "16-Nov-2016"
+  },
+  {
+    "Left": 12,
+    "Right": 967,
+    "Date": "22-Oct-2015"
+  },
+  {
+    "Left": 51,
+    "Right": 931,
+    "Date": "05-Mar-2017"
+  },
+  {
+    "Left": 118,
+    "Right": 894,
+    "Date": "14-Apr-2015"
+  },
+  {
+    "Left": 64,
+    "Right": 669,
+    "Date": "25-Mar-2017"
+  },
+  {
+    "Left": 125,
+    "Right": 1045,
+    "Date": "27-Oct-2016"
+  },
+  {
+    "Left": 102,
+    "Right": 502,
+    "Date": "18-Nov-2017"
+  },
+  {
+    "Left": 44,
+    "Right": 883,
+    "Date": "20-Jul-2016"
+  },
+  {
+    "Left": 24,
+    "Right": 1488,
+    "Date": "08-Dec-2015"
+  },
+  {
+    "Left": 14,
+    "Right": 1027,
+    "Date": "04-Apr-2015"
+  },
+  {
+    "Left": 21,
+    "Right": 1155,
+    "Date": "21-May-2015"
+  },
+  {
+    "Left": 124,
+    "Right": 444,
+    "Date": "11-Mar-2015"
+  },
+  {
+    "Left": 48,
+    "Right": 1053,
+    "Date": "08-Oct-2016"
+  },
+  {
+    "Left": 57,
+    "Right": 813,
+    "Date": "21-Nov-2015"
+  },
+  {
+    "Left": 60,
+    "Right": 478,
+    "Date": "28-Nov-2017"
+  },
+  {
+    "Left": 135,
+    "Right": 283,
+    "Date": "23-Oct-2016"
+  },
+  {
+    "Left": 31,
+    "Right": 1077,
+    "Date": "13-Mar-2017"
+  },
+  {
+    "Left": 138,
+    "Right": 864,
+    "Date": "03-Apr-2015"
+  },
+  {
+    "Left": 120,
+    "Right": 703,
+    "Date": "29-Oct-2016"
+  },
+  {
+    "Left": 10,
+    "Right": 1524,
+    "Date": "01-Jun-2017"
+  },
+  {
+    "Left": 29,
+    "Right": 1382,
+    "Date": "18-Oct-2015"
+  },
+  {
+    "Left": 52,
+    "Right": 1514,
+    "Date": "16-Mar-2016"
+  },
+  {
+    "Left": 42,
+    "Right": 1050,
+    "Date": "26-Sep-2015"
+  },
+  {
+    "Left": 115,
+    "Right": 822,
+    "Date": "18-Jun-2016"
+  },
+  {
+    "Left": 138,
+    "Right": 249,
+    "Date": "02-Jan-2015"
+  },
+  {
+    "Left": 24,
+    "Right": 632,
+    "Date": "11-Oct-2015"
+  },
+  {
+    "Left": 114,
+    "Right": 824,
+    "Date": "17-Jul-2015"
+  },
+  {
+    "Left": 121,
+    "Right": 956,
+    "Date": "09-Feb-2015"
+  },
+  {
+    "Left": 105,
+    "Right": 1466,
+    "Date": "05-Dec-2016"
+  },
+  {
+    "Left": 131,
+    "Right": 1005,
+    "Date": "02-May-2017"
+  },
+  {
+    "Left": 6,
+    "Right": 464,
+    "Date": "23-Nov-2017"
+  },
+  {
+    "Left": 83,
+    "Right": 1543,
+    "Date": "11-Jun-2017"
+  },
+  {
+    "Left": 28,
+    "Right": 618,
+    "Date": "25-Feb-2016"
+  },
+  {
+    "Left": 25,
+    "Right": 1187,
+    "Date": "06-Sep-2015"
+  },
+  {
+    "Left": 20,
+    "Right": 696,
+    "Date": "05-Sep-2015"
+  },
+  {
+    "Left": 16,
+    "Right": 540,
+    "Date": "11-Jan-2015"
+  },
+  {
+    "Left": 134,
+    "Right": 236,
+    "Date": "23-Dec-2017"
+  },
+  {
+    "Left": 36,
+    "Right": 952,
+    "Date": "11-Jun-2017"
+  },
+  {
+    "Left": 80,
+    "Right": 852,
+    "Date": "26-Sep-2017"
+  },
+  {
+    "Left": 120,
+    "Right": 667,
+    "Date": "02-May-2015"
+  },
+  {
+    "Left": 28,
+    "Right": 1188,
+    "Date": "11-May-2016"
+  },
+  {
+    "Left": 38,
+    "Right": 1154,
+    "Date": "26-Dec-2015"
+  },
+  {
+    "Left": 31,
+    "Right": 1239,
+    "Date": "13-Nov-2015"
+  },
+  {
+    "Left": 11,
+    "Right": 1508,
+    "Date": "02-Feb-2015"
+  },
+  {
+    "Left": 78,
+    "Right": 1648,
+    "Date": "04-Jul-2015"
+  },
+  {
+    "Left": 95,
+    "Right": 287,
+    "Date": "19-May-2016"
+  },
+  {
+    "Left": 80,
+    "Right": 1328,
+    "Date": "29-May-2016"
+  },
+  {
+    "Left": 67,
+    "Right": 1381,
+    "Date": "15-Dec-2016"
+  },
+  {
+    "Left": 126,
+    "Right": 571,
+    "Date": "21-May-2015"
+  },
+  {
+    "Left": 13,
+    "Right": 281,
+    "Date": "14-Apr-2017"
+  },
+  {
+    "Left": 78,
+    "Right": 679,
+    "Date": "23-May-2016"
+  },
+  {
+    "Left": 112,
+    "Right": 896,
+    "Date": "07-Dec-2016"
+  },
+  {
+    "Left": 59,
+    "Right": 1156,
+    "Date": "22-Jul-2016"
+  },
+  {
+    "Left": 128,
+    "Right": 1278,
+    "Date": "29-Apr-2016"
+  },
+  {
+    "Left": 135,
+    "Right": 985,
+    "Date": "25-Dec-2016"
+  },
+  {
+    "Left": 42,
+    "Right": 305,
+    "Date": "25-May-2015"
+  },
+  {
+    "Left": 109,
+    "Right": 1002,
+    "Date": "21-Jul-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 155,
+    "Date": "04-Nov-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1465,
+    "Date": "10-Jun-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 430,
+    "Date": "26-Oct-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 511,
+    "Date": "20-May-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1497,
+    "Date": "25-May-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 1372,
+    "Date": "23-Mar-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 847,
+    "Date": "09-Oct-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1141,
+    "Date": "19-Dec-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1545,
+    "Date": "30-Mar-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1502,
+    "Date": "31-Mar-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 1583,
+    "Date": "23-Nov-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 1186,
+    "Date": "13-Feb-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1211,
+    "Date": "22-Oct-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1452,
+    "Date": "18-May-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1392,
+    "Date": "09-Dec-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1438,
+    "Date": "14-Aug-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 238,
+    "Date": "23-Mar-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1407,
+    "Date": "09-Jul-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1250,
+    "Date": "20-Mar-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1471,
+    "Date": "19-Mar-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 907,
+    "Date": "19-Oct-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1233,
+    "Date": "31-Jan-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 886,
+    "Date": "25-Sep-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1321,
+    "Date": "06-Jan-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 893,
+    "Date": "10-Apr-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 439,
+    "Date": "26-Nov-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 606,
+    "Date": "01-Nov-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 821,
+    "Date": "05-Jan-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1467,
+    "Date": "25-Aug-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1265,
+    "Date": "11-Mar-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 358,
+    "Date": "05-Jul-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1108,
+    "Date": "27-Aug-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1637,
+    "Date": "04-Aug-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1558,
+    "Date": "26-Dec-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 312,
+    "Date": "23-Mar-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 637,
+    "Date": "23-Jul-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 725,
+    "Date": "23-Jan-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 947,
+    "Date": "27-Apr-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 422,
+    "Date": "02-Nov-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 1240,
+    "Date": "01-Jul-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 899,
+    "Date": "10-Jun-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1351,
+    "Date": "08-Jan-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 286,
+    "Date": "04-Dec-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1553,
+    "Date": "03-Dec-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 164,
+    "Date": "28-Jun-2015"
+  },
+  {
+    "Left": 1,
+    "Right": 1640,
+    "Date": "24-Jul-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1538,
+    "Date": "17-May-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 797,
+    "Date": "27-Jul-2017"
+  },
+  {
+    "Left": 1,
+    "Right": 1610,
+    "Date": "08-Nov-2016"
+  },
+  {
+    "Left": 1,
+    "Right": 1414,
+    "Date": "12-Apr-2016"
+  }
+]}

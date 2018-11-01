@@ -1,0 +1,34 @@
+{
+  "vertexMap" : {
+    "Customer.json" : {
+      "[VertexLabel]" : "customer",
+      "cust_id" : "cust_id",
+      "fname" : "fname",
+      "lname" : "lname",
+      "email" : "email",
+      "rtn" : "rtn",
+      "pan" : "pan",
+      "dob" : "dob",
+      "gender" : "gender"
+    },
+    "Lob.json" : {
+      "[VertexLabel]" : "lob",
+      "si" : "si",
+      "imsi" : "imsi",
+      "imei" : "imei",
+      "iccid" : "iccid"
+    }
+  },
+  "edgeMap" : {
+    "Customer_subscribes_Lob_edge.json" : {
+      "[edge_left]" : {
+        "Left" : "customer.cust_id"
+      },
+      "[EdgeLabel]" : "subscribes",
+      "[edge_right]" : {
+        "Right" : "lob.si"
+      },
+      "date" : "date"
+    }
+  }
+}

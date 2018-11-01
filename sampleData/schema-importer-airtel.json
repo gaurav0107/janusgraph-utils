@@ -1,0 +1,35 @@
+{
+  "propertyKeys": [
+    {"name": "fname", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "lname", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "email", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "rtn", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "pan", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "si", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "imsi", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "imei", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "iccid", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "dob", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "gender", "dataType": "String", "cardinality": "SINGLE"},
+    {"name": "imsi", "dataType": "String", "cardinality": "SINGLE"},
+  ],
+  "vertexLabels": [
+    {"name": "customer"},
+    {"name": "lob"}
+  ],
+  "edgeLabels": [
+    {"name": "subscribes", "multiplicity": "ONE2MANY"}
+
+  ],
+  "vertexIndexes": [
+    {"name": "vByFName",
+      "propertyKeys": ["fname"],
+      "composite": true,
+      "unique": true}
+  ],
+  "edgeIndexes" :[
+    {"name": "eSubscribes",
+      "propertyKeys": ["subscribes"],
+      "composite": true}
+  ]
+}

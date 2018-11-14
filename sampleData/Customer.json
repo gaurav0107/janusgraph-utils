@@ -1,0 +1,59 @@
+{
+
+  "data": [
+    {
+      "custId": "1aslkdhj1i",
+      "cust_ac_no": "1372382072",
+      "fname": "Ankit",
+      "lname": "Agrawal",
+      "email": "ankit.agrwal24@gmail.com",
+      "rtn": "8149971987",
+      "dob": "13-12-1989",
+      "gender": "U"
+    },
+    {
+      "custId": "1aslkdh32i",
+      "cust_ac_no": "1300633498",
+      "fname": "Gaurav",
+      "lname": "Sharma",
+      "email": "gauravdubey0107@gmail.com",
+      "rtn": "9958150419",
+      "dob": "09-07-1992",
+      "pan": "BEGPD401",
+      "gender": "M"
+    },
+    {
+      "custId": "1aslsdfdhj1i",
+      "cust_ac_no": "1382637734",
+      "fname": "SUPRITI",
+      "lname": ".",
+      "email": "supriti271114@gmail.com",
+      "rtn": "9386496565",
+      "pan": "TESTW1234A",
+      "dob": "02-01-1997",
+      "gender": "F"
+    },
+    {
+      "custId": "1dfgkdhj1i",
+      "cust_ac_no": "1382636455",
+      "fname": "NISHIT",
+      "lname": "GUPTA",
+      "email": "nishit.iiita@gmail.com",
+      "rtn": "9116005160",
+      "pan": "TESTW1234A",
+      "dob": "09-01-1996",
+      "gender": "M"
+    },
+    {
+      "custId": "1aslewrdhj1i",
+      "cust_ac_no": "1383680662",
+      "fname": "Anish",
+      "lname": "Nair",
+      "email": "anish1.nair@airtel.com",
+      "rtn": "9928454369",
+      "dob": "04-10-1994",
+      "pan": "ARMPN1160F",
+      "gender": "M"
+    }
+  ]
+}

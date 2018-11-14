@@ -2,7 +2,9 @@
   "vertexMap" : {
     "Customer.json" : {
       "[VertexLabel]" : "customer",
-      "cust_id" : "cust_id",
+      "[VertexPk]": "custId",
+      "custId": "custId",
+      "cust_ac_no" : "cust_ac_no",
       "fname" : "fname",
       "lname" : "lname",
       "email" : "email",
@@ -13,16 +15,17 @@
     },
     "Lob.json" : {
       "[VertexLabel]" : "lob",
+      "[VertexPk]": "si",
       "si" : "si",
       "imsi" : "imsi",
       "imei" : "imei",
-      "iccid" : "iccid"
+      "si_lob"  : "si_lob"
     }
   },
   "edgeMap" : {
     "Customer_subscribes_Lob_edge.json" : {
       "[edge_left]" : {
-        "Left" : "customer.cust_id"
+        "Left" : "customer.cust_ac_no"
       },
       "[EdgeLabel]" : "subscribes",
       "[edge_right]" : {

@@ -55,6 +55,10 @@ case $class in
         shift
         java -cp "$CP":"${utilityJar}" com.ibm.janusgraph.utils.importer.BatchImport "$@"
         ;;
+    update)
+        shift
+        java -cp "$CP":"${utilityJar}" com.ibm.janusgraph.utils.importer.BatchUpdate "$@"
+        ;;
     loadsch)
         shift
         java -cp "$CP":"${utilityJar}" com.ibm.janusgraph.utils.importer.schema.SchemaLoader "$@"

@@ -62,8 +62,8 @@ public class DataFileLoader {
                 Map<String, String> m1 = ((Map)iter.next());
                 Map<String, String> m = new HashMap<String, String>();
                 for (Map.Entry<String, String> entry : m1.entrySet()){
-                    m.put(entry.getKey(), entry.getValue());
-                    //m.put(entry.toString().split("=")[0], entry.toString().split("=")[1]);
+                    //m.put(entry.getKey(), entry.getValue());
+                    m.put(entry.toString().split("=")[0], entry.toString().split("=")[1]);
                 }
                 sub.add(m);
                 currentRecord++;
@@ -72,7 +72,6 @@ public class DataFileLoader {
             Worker worker = constructor.newInstance(sub.iterator(), propertiesMap, graph);
             workers.submit(worker);
         }
-        //main thread would wait here
         workers.wait4Finish();
     }
     private void startWorkers(Iterator<CSVRecord> iter, long targetRecordCount, WorkerPool workers) throws Exception {
@@ -118,8 +117,6 @@ public class DataFileLoader {
             System.out.println("Unsupported File Format");
             System.exit(1);
         }
-
-
 
     }
 }

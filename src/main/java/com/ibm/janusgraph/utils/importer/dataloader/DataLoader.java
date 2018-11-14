@@ -21,6 +21,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+import com.ibm.janusgraph.utils.importer.vertex.VertexUpdateWorker;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.janusgraph.core.JanusGraph;
@@ -50,6 +51,15 @@ public class DataLoader {
 
     public void loadEdges(String filesDirectory, String mappingFile) throws Exception {
         loadData(filesDirectory, mappingFile, "edgeMap", (Class) EdgeLoaderWorker.class);
+    }
+
+
+    public void updateVertex(String filesDirectory, String mappingFile) throws Exception {
+        updateData(filesDirectory, mappingFile, "vertexMap", (Class) VertexUpdateWorker.class);
+    }
+
+    public void updateEdges(String filesDirectory, String mappingFile) throws Exception {
+        updateData(filesDirectory, mappingFile, "edgeMap", (Class) EdgeLoaderWorker.class);
     }
 
     public void loadData(String filesDirectory, String mappingFile, String mapToLoad, Class<Worker> workerClass)
@@ -87,5 +97,44 @@ public class DataLoader {
         // log elapsed time in seconds
         long totalTime = (System.nanoTime() - startTime) / 1000000000;
         log.info("Loaded " + mapToLoad + " in " + totalTime + " seconds!");
+    }
+
+    public void updateData(String filesDirectory, String mappingFile, String mapToUpdate, Class<Worker> workerClass)
+            throws Exception{
+        long startTime = System.nanoTime();
+        log.info("Start updating data for " + mapToUpdate);
+
+        String mappingJson = new String(Files.readAllBytes(Paths.get(mappingFile)));
+        JSONObject mapping = new JSONObject(mappingJson);
+
+        JSONObject nodeMap;
+        log.info(mapping.toString());
+        try {
+            nodeMap = mapping.getJSONObject(mapToUpdate);
+            if (nodeMap == null) {
+                return;
+            }
+        } catch (JSONException e) {
+            log.error(e.toString());
+            return;
+        }
+
+        log.info(nodeMap.toString());
+        Iterator<String> keysIter = nodeMap.keys();
+
+        int availProcessors = Config.getConfig().getWorkers();
+        try (WorkerPool workers = new WorkerPool(availProcessors, availProcessors * 2)) {
+            while (keysIter.hasNext()) {
+                String fileName = keysIter.next();
+                Map<String, Object> propMapping = new Gson().fromJson(nodeMap.getJSONObject(fileName).toString(),
+                        new TypeToken<HashMap<String, Object>>() {
+                        }.getType());
+                new DataFileLoader(graph, workerClass).loadFile(filesDirectory + "/" + fileName, propMapping, workers);
+            }
+        }
+
+        // log elapsed time in seconds
+        long totalTime = (System.nanoTime() - startTime) / 1000000000;
+        log.info("Loaded " + mapToUpdate + " in " + totalTime + " seconds!");
     }
 }

@@ -15,41 +15,42 @@
  *******************************************************************************/
 package com.ibm.janusgraph.utils.importer.vertex;
 
+import com.ibm.janusgraph.utils.importer.util.*;
+import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal;
+import org.apache.tinkerpop.gremlin.structure.Vertex;
+import org.janusgraph.core.JanusGraph;
+import org.janusgraph.core.JanusGraphException;
+import org.janusgraph.core.JanusGraphTransaction;
+import org.janusgraph.core.JanusGraphVertex;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.stringtemplate.v4.ST;
+
 import java.util.Iterator;
 import java.util.Map;
 import java.util.UUID;
 import java.util.function.Consumer;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.janusgraph.core.JanusGraph;
-import org.janusgraph.core.JanusGraphTransaction;
-import org.janusgraph.core.JanusGraphVertex;
-
-import com.ibm.janusgraph.utils.importer.util.BatchHelper;
-import com.ibm.janusgraph.utils.importer.util.Config;
-import com.ibm.janusgraph.utils.importer.util.Constants;
-import com.ibm.janusgraph.utils.importer.util.Worker;
-import com.ibm.janusgraph.utils.importer.util.WorkerListener;
-
-public class VertexLoaderWorker extends Worker {
+public class VertexUpdateWorker extends Worker {
     private final UUID myID = UUID.randomUUID();
 
     private final int COMMIT_COUNT;
 
-    private final String defaultVertexLabel;
+  //  private final String defaultVertexLabel;
     private String vertexLabelFieldName;
+    private String vertexPk;
     private JanusGraphTransaction graphTransaction;
     private long currentRecord;
 
-    private static final Logger log = LoggerFactory.getLogger(VertexLoaderWorker.class);
+    private static final Logger log = LoggerFactory.getLogger(VertexUpdateWorker.class);
 
-    public VertexLoaderWorker(final Iterator<Map<String, String>> records, final Map<String, Object> propertiesMap,
-            final JanusGraph graph) {
+    public VertexUpdateWorker(final Iterator<Map<String, String>> records, final Map<String, Object> propertiesMap,
+                              final JanusGraph graph) {
         super(records, propertiesMap, graph);
 
         this.currentRecord = 0;
-        this.defaultVertexLabel = (String) propertiesMap.get(Constants.VERTEX_LABEL_MAPPING);
+//        this.defaultVertexLabel = (String) propertiesMap.get(Constants.VERTEX_LABEL_MAPPING);
+        this.vertexPk = (String)propertiesMap.get(Constants.VERTEX_PK);
         this.vertexLabelFieldName = null;
 
         COMMIT_COUNT = Config.getConfig().getVertexRecordCommitCount();
@@ -65,46 +66,35 @@ public class VertexLoaderWorker extends Worker {
         }
     }
 
-    private void acceptRecord(Map<String, String> record) throws Exception {
-        String vertexLabel = defaultVertexLabel;
-        if (vertexLabelFieldName != null) {
-            vertexLabel = record.get(vertexLabelFieldName);
+    private void updateRecord(Map<String, String> record) throws Exception {
+
+        JanusGraphVertex v1 = null;
+        GraphTraversal<Vertex, Vertex> gt = graphTransaction.traversal().V().has(this.vertexPk, record.get(this.vertexPk));
+        if(gt.hasNext()){
+            v1 = (JanusGraphVertex) gt.next();
+        }else {
+            throw new VertexNotFound("vertex with pk: " + this.vertexPk + "=" + record.get(this.vertexPk));
         }
-        JanusGraphVertex v = graphTransaction.addVertex(vertexLabel);
 
         // set the properties of the vertex
         String value = null;
         for (String column : record.keySet()) {
-            try {
-                value = record.get(column);
-            }catch (Exception e){
-                System.out.println("here is the problem : " + column);
-                System.out.println("here is the problem : " + record.get(column));
-                throw e;
-            }
-            // If value="" or it is a vertex label then skip it
-            if (value == null || value.length() == 0 || column.equals(vertexLabelFieldName))
-                continue;
 
             String propName = (String) getPropertiesMap().get(column);
             if (propName == null) {
-                // log.info("Thread " + myID + ".Cannot find property name for
-                // column " + column
-                // + " in the properties map. Using the column name as
-                // default.");
                 continue;
-                // propName = column;
             }
-            // Update property only if it does not exist already
-            if (!v.properties(propName).hasNext()) {
-                // TODO Convert properties between data types. e.g. Date
-                Object convertedValue = BatchHelper.convertPropertyValue(value,
-                        graphTransaction.getPropertyKey(propName).dataType());
-                v.property(propName, convertedValue);
+
+
+            // TODO Convert properties between data types. e.g. Date
+            Object convertedValue = BatchHelper.convertPropertyValue(value,
+                    graphTransaction.getPropertyKey(propName).dataType());
+            try{
+                v1.property(propName, convertedValue);
+            }catch (Exception e){
+                log.error(e.toString());
             }
         }
-
-
 
         if (currentRecord % COMMIT_COUNT == 0) {
             graphTransaction.commit();
@@ -128,13 +118,15 @@ public class VertexLoaderWorker extends Worker {
             @Override
             public void accept(Map<String, String> record) {
                 try {
-                    acceptRecord(record);
+                    updateRecord(record);
+                    //graphTransaction.commit();
                 } catch (Exception e) {
                     log.error("Thread " + myID + ". Exception during record import.", e);
+                    //graphTransaction.rollback();
                 }
             }
-        });
 
+        });
         graphTransaction.commit();
         graphTransaction.close();
 
@@ -143,4 +135,10 @@ public class VertexLoaderWorker extends Worker {
         notifyListener(WorkerListener.State.Done);
     }
 
+
+    public class VertexNotFound extends Exception {
+        public VertexNotFound(String errorMessage) {
+            super(errorMessage);
+        }
+    }
 }

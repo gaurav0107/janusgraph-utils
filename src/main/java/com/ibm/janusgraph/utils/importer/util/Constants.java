@@ -30,6 +30,7 @@ public class Constants {
     public static final String EDGE_LEFT_MAPPING = "[edge_left]";
     public static final String EDGE_RIGHT_MAPPING = "[edge_right]";
     public static final String VERTEX_LABEL_MAPPING = "[VertexLabel]";
+    public static final String VERTEX_PK = "[VertexPk]";
     public static final String EDGE_LABEL_MAPPING = "[EdgeLabel]";
 
     public static final Integer DEFAULT_WORKERS_TARGET_RECORD_COUNT = 50000;

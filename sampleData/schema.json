@@ -25,6 +25,8 @@
     "partition" : false,
     "useStatic" : false
   } ],
+
+
   "edgeLabels" : [ {
     "name" : "Follows",
     "multiplicity" : "SIMPLE",
@@ -51,6 +53,8 @@
     "signatures" : null,
     "unidirected" : false
   } ],
+
+
   "vertexIndexes" : [ {
     "name" : "node_id_comp",
     "propertyKeys" : [ "node_id" ],

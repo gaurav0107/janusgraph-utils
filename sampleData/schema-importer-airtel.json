@@ -31,6 +31,13 @@
     {"name": "vBySi",
       "propertyKeys": ["si"],
       "composite": true,
-      "unique": true}
+      "unique": true},
+    {
+      "name" : "nameMixed",
+      "propertyKeys" : [ "fname" ],
+      "composite" : false,
+      "unique" : false,
+      "mixedIndex" : "search"
+    }
   ]
 }

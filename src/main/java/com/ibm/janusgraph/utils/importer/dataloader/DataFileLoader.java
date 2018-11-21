@@ -54,7 +54,7 @@ public class DataFileLoader {
         this.workerClass = workerClass;
     }
 
-    private void startJsonWorkers(Iterator iter, long targetRecordCount, WorkerPool workers) throws Exception {
+    private void startJsonWorkers(Iterator iter, long targetRecordCount, WorkerPool workers, String jobType) throws Exception {
         while(iter.hasNext()){
             long currentRecord = 0;
             List<Map<String, String>> sub = new ArrayList<Map<String, String>>();
@@ -68,13 +68,13 @@ public class DataFileLoader {
                 sub.add(m);
                 currentRecord++;
             }
-            Constructor<Worker> constructor = workerClass.getConstructor(Iterator.class, Map.class, JanusGraph.class);
-            Worker worker = constructor.newInstance(sub.iterator(), propertiesMap, graph);
+            Constructor<Worker> constructor = workerClass.getConstructor(Iterator.class, Map.class, JanusGraph.class, String.class);
+            Worker worker = constructor.newInstance(sub.iterator(), propertiesMap, graph, jobType);
             workers.submit(worker);
         }
         workers.wait4Finish();
     }
-    private void startWorkers(Iterator<CSVRecord> iter, long targetRecordCount, WorkerPool workers) throws Exception {
+    private void startWorkers(Iterator<CSVRecord> iter, long targetRecordCount, WorkerPool workers, String jobType) throws Exception {
         while (iter.hasNext()) {
             long currentRecord = 0;
             List<Map<String, String>> sub = new ArrayList<Map<String, String>>();
@@ -84,14 +84,14 @@ public class DataFileLoader {
             }
             System.out.println(sub);
             Constructor<Worker> constructor = workerClass.getConstructor(Iterator.class, Map.class, JanusGraph.class);
-            Worker worker = constructor.newInstance(sub.iterator(), propertiesMap, graph);
+            Worker worker = constructor.newInstance(sub.iterator(), propertiesMap, graph, jobType);
             workers.submit(worker);
         }
         //main thread would wait here
         workers.wait4Finish();
     }
 
-    public void loadFile(String fileName, Map<String, Object> propertiesMap, WorkerPool workers) throws Exception {
+    public void loadFile(String fileName, Map<String, Object> propertiesMap, WorkerPool workers, String jobType) throws Exception {
         log.info("Loading " + fileName);
         // long linesCount = BatchHelper.countLines(fileName);
 
@@ -104,7 +104,7 @@ public class DataFileLoader {
             JSONObject jsonObject = (JSONObject) obj;
             JSONArray data = (JSONArray) jsonObject.get("data");
             Iterator iter = data.iterator();
-            startJsonWorkers(iter, Config.getConfig().getWorkersTargetRecordCount(), workers);
+            startJsonWorkers(iter, Config.getConfig().getWorkersTargetRecordCount(), workers, jobType);
         }else if(FilenameUtils.getExtension(fileName).equals("csv")){
             Reader in = new FileReader(fileName);
             Iterator<CSVRecord> iter = CSVFormat.EXCEL.withHeader().parse(in).iterator();
@@ -112,7 +112,7 @@ public class DataFileLoader {
             // TODO Calculate targetThreadCount using the free memory and number of threads
             // to execute
             // Max record count per thread
-            startWorkers(iter, Config.getConfig().getWorkersTargetRecordCount(), workers);
+            startWorkers(iter, Config.getConfig().getWorkersTargetRecordCount(), workers, jobType);
         }else{
             System.out.println("Unsupported File Format");
             System.exit(1);

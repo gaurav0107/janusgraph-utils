@@ -47,8 +47,8 @@ public class EdgeLoaderWorker extends Worker {
     private GraphTraversalSource traversal;
 
     public EdgeLoaderWorker(final Iterator<Map<String, String>> records, final Map<String, Object> propertiesMap,
-            final JanusGraph graph) {
-        super(records, propertiesMap, graph);
+            final JanusGraph graph, String jobType) {
+        super(records, propertiesMap, graph, jobType);
 
         this.currentRecord = 0;
         this.defaultEdgeLabel = (String) propertiesMap.get(Constants.EDGE_LABEL_MAPPING);

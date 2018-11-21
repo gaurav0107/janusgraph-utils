@@ -21,7 +21,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import com.ibm.janusgraph.utils.importer.vertex.VertexUpdateWorker;
+import com.ibm.janusgraph.utils.importer.util.Constants;
+import com.ibm.janusgraph.utils.importer.vertex.VertexPatchWorker;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.janusgraph.core.JanusGraph;
@@ -34,7 +35,7 @@ import com.ibm.janusgraph.utils.importer.edge.EdgeLoaderWorker;
 import com.ibm.janusgraph.utils.importer.util.Config;
 import com.ibm.janusgraph.utils.importer.util.Worker;
 import com.ibm.janusgraph.utils.importer.util.WorkerPool;
-import com.ibm.janusgraph.utils.importer.vertex.VertexLoaderWorker;
+import com.ibm.janusgraph.utils.importer.vertex.VertexWorker;
 
 public class DataLoader {
     private JanusGraph graph;
@@ -45,24 +46,24 @@ public class DataLoader {
         this.graph = graph;
     }
 
-    public void loadVertex(String filesDirectory, String mappingFile) throws Exception {
-        loadData(filesDirectory, mappingFile, "vertexMap", (Class) VertexLoaderWorker.class);
+    public void loadVertex(String filesDirectory, String mappingFile, String jobType) throws Exception {
+        loadData(filesDirectory, mappingFile, "vertexMap", (Class) VertexWorker.class, jobType);
     }
 
-    public void loadEdges(String filesDirectory, String mappingFile) throws Exception {
-        loadData(filesDirectory, mappingFile, "edgeMap", (Class) EdgeLoaderWorker.class);
+    public void loadEdges(String filesDirectory, String mappingFile, String jobType) throws Exception {
+        loadData(filesDirectory, mappingFile, "edgeMap", (Class) EdgeLoaderWorker.class, jobType);
     }
 
 
     public void updateVertex(String filesDirectory, String mappingFile) throws Exception {
-        updateData(filesDirectory, mappingFile, "vertexMap", (Class) VertexUpdateWorker.class);
+        loadData(filesDirectory, mappingFile, "vertexMap", (Class) VertexPatchWorker.class, Constants.POST);
     }
 
     public void updateEdges(String filesDirectory, String mappingFile) throws Exception {
-        updateData(filesDirectory, mappingFile, "edgeMap", (Class) EdgeLoaderWorker.class);
+        loadData(filesDirectory, mappingFile, "edgeMap", (Class) EdgeLoaderWorker.class, Constants.POST);
     }
 
-    public void loadData(String filesDirectory, String mappingFile, String mapToLoad, Class<Worker> workerClass)
+    public void loadData(String filesDirectory, String mappingFile, String mapToLoad, Class<Worker> workerClass, String jobType)
             throws Exception {
         long startTime = System.nanoTime();
         log.info("Start loading data for " + mapToLoad);
@@ -90,7 +91,7 @@ public class DataLoader {
                 Map<String, Object> propMapping = new Gson().fromJson(nodeMap.getJSONObject(fileName).toString(),
                         new TypeToken<HashMap<String, Object>>() {
                         }.getType());
-                new DataFileLoader(graph, workerClass).loadFile(filesDirectory + "/" + fileName, propMapping, workers);
+                new DataFileLoader(graph, workerClass).loadFile(filesDirectory + "/" + fileName, propMapping, workers, jobType);
             }
         }
 
@@ -99,6 +100,7 @@ public class DataLoader {
         log.info("Loaded " + mapToLoad + " in " + totalTime + " seconds!");
     }
 
+    /*
     public void updateData(String filesDirectory, String mappingFile, String mapToUpdate, Class<Worker> workerClass)
             throws Exception{
         long startTime = System.nanoTime();
@@ -137,4 +139,5 @@ public class DataLoader {
         long totalTime = (System.nanoTime() - startTime) / 1000000000;
         log.info("Loaded " + mapToUpdate + " in " + totalTime + " seconds!");
     }
+    */
 }

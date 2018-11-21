@@ -15,23 +15,22 @@
  *******************************************************************************/
 package com.ibm.janusgraph.utils.importer.vertex;
 
+import com.ibm.janusgraph.utils.importer.Exception.VertexNotFound;
 import com.ibm.janusgraph.utils.importer.util.*;
 import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal;
 import org.apache.tinkerpop.gremlin.structure.Vertex;
 import org.janusgraph.core.JanusGraph;
-import org.janusgraph.core.JanusGraphException;
 import org.janusgraph.core.JanusGraphTransaction;
 import org.janusgraph.core.JanusGraphVertex;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.stringtemplate.v4.ST;
 
 import java.util.Iterator;
 import java.util.Map;
 import java.util.UUID;
 import java.util.function.Consumer;
 
-public class VertexUpdateWorker extends Worker {
+public class VertexPatchWorker extends Worker {
     private final UUID myID = UUID.randomUUID();
 
     private final int COMMIT_COUNT;
@@ -42,15 +41,15 @@ public class VertexUpdateWorker extends Worker {
     private JanusGraphTransaction graphTransaction;
     private long currentRecord;
 
-    private static final Logger log = LoggerFactory.getLogger(VertexUpdateWorker.class);
+    private static final Logger log = LoggerFactory.getLogger(VertexPatchWorker.class);
 
-    public VertexUpdateWorker(final Iterator<Map<String, String>> records, final Map<String, Object> propertiesMap,
-                              final JanusGraph graph) {
-        super(records, propertiesMap, graph);
+    public VertexPatchWorker(final Iterator<Map<String, String>> records, final Map<String, Object> propertiesMap,
+                             final JanusGraph graph) {
+        super(records, propertiesMap, graph, "PATCH");
 
         this.currentRecord = 0;
 //        this.defaultVertexLabel = (String) propertiesMap.get(Constants.VERTEX_LABEL_MAPPING);
-        this.vertexPk = (String)propertiesMap.get(Constants.VERTEX_PK);
+
         this.vertexLabelFieldName = null;
 
         COMMIT_COUNT = Config.getConfig().getVertexRecordCommitCount();
@@ -135,10 +134,4 @@ public class VertexUpdateWorker extends Worker {
         notifyListener(WorkerListener.State.Done);
     }
 
-
-    public class VertexNotFound extends Exception {
-        public VertexNotFound(String errorMessage) {
-            super(errorMessage);
-        }
-    }
 }

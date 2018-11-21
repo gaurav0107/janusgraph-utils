@@ -15,6 +15,7 @@
  *******************************************************************************/
 package com.ibm.janusgraph.utils.importer;
 
+import com.ibm.janusgraph.utils.importer.util.Constants;
 import org.janusgraph.core.JanusGraph;
 import org.janusgraph.core.JanusGraphFactory;
 import com.ibm.janusgraph.utils.importer.dataloader.DataLoader;
@@ -24,17 +25,37 @@ public class BatchImport {
 
     public static void main(String args[]) throws Exception {
 
-        if (null == args || args.length < 4) {
+        System.out.println(args.toString());
+        if (null == args || args.length < 5) {
             System.err.println(
-                    "Usage: BatchImport <janusgraph-config-file> <data-files-directory> <schema.json> <data-mapping.json> [skipSchema]");
+                    "Usage: BatchImport <jobType> <janusgraph-config-file> <data-files-directory> <schema.json> <data-mapping.json> [skipSchema]");
             System.exit(1);
         }
-
-        JanusGraph graph = JanusGraphFactory.open(args[0]);
-        if (!(args.length > 4 && args[4].equals("skipSchema")))
-            new SchemaLoader().loadSchema(graph, args[2]);
-        new DataLoader(graph).loadVertex(args[1], args[3]);
-        new DataLoader(graph).loadEdges(args[1], args[3]);
+        String jobType = null;
+        JanusGraph graph = JanusGraphFactory.open(args[1]);
+        if (!(args.length > 5 && args[5].equals("skipSchema")))
+            new SchemaLoader().loadSchema(graph, args[3]);
+        switch (args[0].toUpperCase()){
+            case Constants.POST:
+                jobType = Constants.POST;
+                break;
+            case Constants.PUT:
+                jobType = Constants.PUT;
+                break;
+            case Constants.PATCH:
+                jobType = Constants.PUT;
+                break;
+            case Constants.DELETE:
+                jobType = Constants.DELETE;
+                break;
+            default:
+                System.err.println(
+                        "Invalid Job Type "+ args[0]);
+                System.exit(1);
+                break;
+        }
+        new DataLoader(graph).loadVertex(args[2], args[4], jobType);
+        new DataLoader(graph).loadEdges(args[2], args[4], jobType);
         graph.close();
     }
 }

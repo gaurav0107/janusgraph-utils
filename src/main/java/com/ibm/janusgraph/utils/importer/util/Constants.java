@@ -36,4 +36,11 @@ public class Constants {
     public static final Integer DEFAULT_WORKERS_TARGET_RECORD_COUNT = 50000;
     public static final Integer DEFAULT_VERTEX_COMMIT_COUNT = 10000;
     public static final Integer DEFAULT_EDGE_COMMIT_COUNT = 1000;
+
+
+    public static final String POST = "POST";
+    public static final String PUT = "PUT";
+    public static final String PATCH = "PATCH";
+    public static final String DELETE = "DELETE";
+
 }

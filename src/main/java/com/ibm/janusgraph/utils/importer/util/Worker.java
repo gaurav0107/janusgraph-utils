@@ -28,12 +28,14 @@ public abstract class Worker implements Runnable {
     private List<WorkerListener> listeners = new LinkedList<WorkerListener>();
     private final JanusGraph graph;
     private final Map<String, Object> propertiesMap;
+    private String jobType;
 
     public Worker(final Iterator<Map<String, String>> records, final Map<String, Object> propertiesMap,
-            final JanusGraph graph) {
+            final JanusGraph graph, String jobType) {
         this.records = records;
         this.graph = graph;
         this.propertiesMap = propertiesMap;
+        this.jobType = jobType;
     }
 
     public Iterator<Map<String, String>> getRecords() {
@@ -46,6 +48,10 @@ public abstract class Worker implements Runnable {
 
     public Map<String, Object> getPropertiesMap() {
         return propertiesMap;
+    }
+
+    public String getJobType() {
+        return jobType;
     }
 
     public void addListener(WorkerListener listener) {

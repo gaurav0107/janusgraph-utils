@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ced4edf-179e-46d1-9e8a-a63389bbf047" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Exception/VertexNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/DML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Exception/CustomException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sampleData/schema-importer-airtel.json" beforeDir="false" afterPath="$PROJECT_DIR$/sampleData/schema-importer-airtel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchImport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataFileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataFileLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/edge/EdgeLoaderWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/edge/EdgeLoaderWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexLoaderWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexUpdateWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexPatchWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexWorker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,33 +19,37 @@
     <session id="873052366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="csv" value="20" />
-          <entry key="groovy" value="5" />
-          <entry key="java" value="42" />
-          <entry key="json" value="53" />
+          <entry key="groovy" value="6" />
+          <entry key="java" value="51" />
+          <entry key="json" value="55" />
           <entry key="md" value="1" />
           <entry key="properties" value="2" />
           <entry key="py" value="2" />
-          <entry key="sh" value="6" />
+          <entry key="sh" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="5" />
+          <entry key="Bash" value="6" />
+          <entry key="CLASS" value="1" />
           <entry key="CSV" value="8" />
-          <entry key="Groovy" value="5" />
-          <entry key="JAVA" value="42" />
-          <entry key="JSON" value="53" />
+          <entry key="Groovy" value="6" />
+          <entry key="JAVA" value="51" />
+          <entry key="JSON" value="55" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Properties" value="2" />
@@ -62,16 +59,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="3723" />
-          <entry key="json" value="451" />
+          <entry key="java" value="4635" />
+          <entry key="json" value="464" />
           <entry key="sh" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="34" />
-          <entry key="JAVA" value="3723" />
-          <entry key="JSON" value="451" />
+          <entry key="JAVA" value="4635" />
+          <entry key="JSON" value="464" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -82,54 +79,50 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2271">
-              <caret line="234" column="39" selection-start-line="234" selection-start-column="39" selection-end-line="234" selection-end-column="39" />
+            <state relative-caret-position="542">
+              <caret line="64" column="78" selection-start-line="64" selection-start-column="78" selection-end-line="64" selection-end-column="78" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#11168#11169#0" expanded="true" />
-                <element signature="e#11195#11196#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/batch_import.properties">
+        <entry file="file://$PROJECT_DIR$/test/test.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="315">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Config.java">
+        <entry file="file://$PROJECT_DIR$/test/schema-importer-testcase.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.sh">
+        <entry file="file://$PROJECT_DIR$/test/SchemaImporterTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
+            <state relative-caret-position="45">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataLoader.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/DML.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+            <state relative-caret-position="915">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1749#1750#0" expanded="true" />
-                <element signature="e#1783#1784#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="75">
               <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -148,47 +141,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchImport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Worker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-              <folding>
-                <element signature="e#1865#1866#0" expanded="true" />
-                <element signature="e#1895#1896#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexPatchWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="705">
+              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sampleData/Customer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
-                <element signature="e#4593#4594#0" expanded="true" />
-                <element signature="e#4620#4621#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1840#1841#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchImport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,8 +190,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -211,6 +202,10 @@
       <find>VertexLabel</find>
       <find>cust_id</find>
       <find>graphTransaction</find>
+      <find>addVertex</find>
+      <find>jobType</find>
+      <find>COMMIT_COUNT</find>
+      <find>System</find>
     </findStrings>
     <replaceStrings>
       <replace>.csv</replace>
@@ -238,24 +233,27 @@
         <option value="$PROJECT_DIR$/sampleData/schema.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchUpdate.java" />
         <option value="$PROJECT_DIR$/sampleData/datamapper_new.json" />
-        <option value="$PROJECT_DIR$/sampleData/Customer.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexNotFound.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexUpdateWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexLoaderWorker.java" />
         <option value="$PROJECT_DIR$/sampleData/schema-importer-airtel.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexPostWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/CustomException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Exception/CustomException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Exception/VertexNotFound.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Worker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataFileLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/edge/EdgeLoaderWorker.java" />
         <option value="$PROJECT_DIR$/run.sh" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchImport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexPatchWorker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchImport.java" />
+        <option value="$PROJECT_DIR$/sampleData/Customer.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexWorker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Import.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/ImportData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Exception/CustomException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/DML.java" />
       </list>
     </option>
   </component>
@@ -275,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,89 +288,26 @@
             <path>
               <item name="janusgraph-utils" type="b2602c69:ProjectViewProjectNode" />
               <item name="janusgraph-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="janusgraph-utils" type="b2602c69:ProjectViewProjectNode" />
               <item name="janusgraph-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="janusgraph-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="janusgraph-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="janusgraph-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="janusgraph-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="janusgraph-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="janusgraph-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="importer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="janusgraph-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="janusgraph-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="importer" type="462c0819:PsiDirectoryNode" />
-              <item name="edge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="janusgraph-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="janusgraph-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="importer" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="janusgraph-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="janusgraph-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="importer" type="462c0819:PsiDirectoryNode" />
-              <item name="vertex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="janusgraph-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="janusgraph-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="schema" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="DataLo&#9;FILE&#9;file:///Users/b0208062/workspace/airtel/janusgraph-utils/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataFileLoader.java&#10;Verte&#9;FILE&#9;file:///Users/b0208062/workspace/airtel/janusgraph-utils/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexLoaderWorker.java&#10;Data&#9;FILE&#9;file:///Users/b0208062/workspace/airtel/janusgraph-utils/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataFileLoader.java&#10;VertexLoad&#9;FILE&#9;file:///Users/b0208062/workspace/airtel/janusgraph-utils/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexLoaderWorker.java&#10;VertexLoaderWo&#9;FILE&#9;file:///Users/b0208062/workspace/airtel/janusgraph-utils/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexLoaderWorker.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542796629708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543475987932" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -421,17 +355,20 @@
       <workItem from="1540968717191" duration="4019000" />
       <workItem from="1540978690498" duration="14681000" />
       <workItem from="1542002975994" duration="22040000" />
+      <workItem from="1543822584860" duration="396000" />
+      <workItem from="1544086943353" duration="1300000" />
+      <workItem from="1544537452359" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40784000" />
+    <option name="totallyTimeSpent" value="53790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27968526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,7 +383,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.03373494" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -470,30 +407,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/generator/bean/CSVConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/generator/bean/CSVIdBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/generator/bean/EdgeLabelBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/schema/SchemaLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -506,23 +419,6 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="-11" />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/schema-importer-testcase.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/SchemaImporterTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -575,8 +471,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sampleData/Tweet_Mentions_User_edges.csv">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sampleData/Tweet_Mentions_User_edges.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -586,24 +482,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sampleData/User_Likes_Tweet_edges.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="6" selection-end-line="10501" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="6" selection-end-line="10501" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sampleData/User_Follows_User_edges.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sampleData/User_Follows_User_edges.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -643,28 +539,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexNotFound.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexNotFound.java" />
     <entry file="file://$PROJECT_DIR$/sampleData/Tweet.csv">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sampleData/User.csv">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sampleData/User.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8115">
           <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampleData/Customer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -689,20 +576,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Exception/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Exception/VertexNotFound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Exception/__init__.py" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/schema/JanusGraphSchemaImporter.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -724,17 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataFileLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="71" column="99" selection-start-line="71" selection-start-column="99" selection-end-line="71" selection-end-column="99" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/edge/EdgeLoaderWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-896">
@@ -742,59 +605,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexPatchWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#4593#4594#0" expanded="true" />
-            <element signature="e#4620#4621#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/batch_import.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/janusgraph/janusgraph-core/0.1.1/janusgraph-core-0.1.1.jar!/org/janusgraph/core/Transaction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        <state relative-caret-position="420">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Worker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/util/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-          <folding>
-            <element signature="e#1865#1866#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="522">
+          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/batch_import.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
+        <state relative-caret-position="567">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataFileLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Exception/VertexNotFound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/Exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="64" column="78" selection-start-line="64" selection-start-column="78" selection-end-line="64" selection-end-column="78" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/schema-importer-testcase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SchemaImporterTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/DML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="75">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -802,37 +720,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchImport.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexPatchWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="705">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampleData/Customer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/dataloader/DataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+        <state relative-caret-position="300">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/vertex/VertexWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/janusgraph/utils/importer/BatchImport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2271">
-          <caret line="234" column="39" selection-start-line="234" selection-start-column="39" selection-end-line="234" selection-end-column="39" />
+        <state relative-caret-position="405">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#11168#11169#0" expanded="true" />
-            <element signature="e#11195#11196#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -43,7 +43,7 @@ public class BatchImport {
                 jobType = Constants.PUT;
                 break;
             case Constants.PATCH:
-                jobType = Constants.PUT;
+                jobType = Constants.PATCH;
                 break;
             case Constants.DELETE:
                 jobType = Constants.DELETE;

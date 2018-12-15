@@ -57,7 +57,7 @@ public class VertexWorker extends Worker {
         this.currentRecord = 0;
         this.defaultVertexLabel = (String) propertiesMap.get(Constants.VERTEX_LABEL_MAPPING);
         this.vertexLabelFieldName = null;
-        this.jobType = Constants.POST;
+        this.jobType = jobType;
         this.vertexPk = (String)propertiesMap.get(Constants.VERTEX_PK);
 
         COMMIT_COUNT = Config.getConfig().getVertexRecordCommitCount();
@@ -73,34 +73,19 @@ public class VertexWorker extends Worker {
         }
     }
 
-
-    private void putRecord(Map<String, String> record) throws Exception {
-
-
-        JanusGraphVertex v = null;
-
+    private String getVertexLabel(Map<String, String> record){
         String vertexLabel = defaultVertexLabel;
         if (vertexLabelFieldName != null) {
             vertexLabel = record.get(vertexLabelFieldName);
         }
+        return vertexLabel;
+    }
 
-        GraphTraversal<Vertex, Vertex> gt = graphTransaction.traversal().V().has(vertexPk, record.get(vertexPk));
-        if(gt.hasNext()){
-            v = (JanusGraphVertex) gt.next();
-        }else {
-            v = graphTransaction.addVertex(vertexLabel);
-        }
-
-
-/*
-        String vertexLabel = defaultVertexLabel;
-        if (vertexLabelFieldName != null) {
-            vertexLabel = record.get(vertexLabelFieldName);
-        }
-        JanusGraphVertex v = graphTransaction.addVertex(vertexLabel);
+    private JanusGraphVertex addVertexProperties(JanusGraphVertex v, Map<String, String> record) throws ParseException {
 
         // set the properties of the vertex
         String value = null;
+
         for (String column : record.keySet()) {
             try {
                 value = record.get(column);
@@ -115,14 +100,9 @@ public class VertexWorker extends Worker {
 
             String propName = (String) getPropertiesMap().get(column);
             if (propName == null) {
-                // log.info("Thread " + myID + ".Cannot find property name for
-                // column " + column
-                // + " in the properties map. Using the column name as
-                // default.");
                 continue;
-                // propName = column;
             }
-            // Update property only if it does not exist already
+
             if (!v.properties(propName).hasNext()) {
                 // TODO Convert properties between data types. e.g. Date
                 Object convertedValue = BatchHelper.convertPropertyValue(value,
@@ -130,68 +110,9 @@ public class VertexWorker extends Worker {
                 v.property(propName, convertedValue);
             }
         }
-
-
-
-        if (currentRecord % COMMIT_COUNT == 0) {
-            graphTransaction.commit();
-            graphTransaction.close();
-            graphTransaction = getGraph().newTransaction();
-        }
-        currentRecord++;
-        */
+        return v;
     }
 
-
-    private void patchRecord(Map<String, String> record) throws Exception {
-
-
-        JanusGraphVertex v = null;
-        GraphTraversal<Vertex, Vertex> gt = graphTransaction.traversal().V().has(vertexPk, record.get(vertexPk));
-        if(gt.hasNext()){
-            v = (JanusGraphVertex) gt.next();
-        }else {
-            throw new VertexNotFound("vertex with pk: " + vertexPk + "=" + record.get(vertexPk));
-        }
-
-        // set the properties of the vertex
-        updateVertexProperties(v, record);
-        /*
-        String value = null;
-        for (String column : record.keySet()) {
-            String propName = (String) getPropertiesMap().get(column);
-            if (propName == null) {
-                continue;
-            }
-
-
-            // TODO Convert properties between data types. e.g. Date
-            Object convertedValue = BatchHelper.convertPropertyValue(value,
-                    graphTransaction.getPropertyKey(propName).dataType());
-            try{
-                v1.property(propName, convertedValue);
-            }catch (Exception e){
-                log.error(e.toString());
-            }
-        }
-        */
-        if (currentRecord % COMMIT_COUNT == 0) {
-            graphTransaction.commit();
-            graphTransaction.close();
-            graphTransaction = getGraph().newTransaction();
-        }
-        currentRecord++;
-
-    }
-
-    private String getVertexLabel(Map<String, String> record){
-        String vertexLabel = defaultVertexLabel;
-        if (vertexLabelFieldName != null) {
-            vertexLabel = record.get(vertexLabelFieldName);
-        }
-        JanusGraphVertex v = graphTransaction.addVertex(vertexLabel);
-        return vertexLabel;
-    }
 
     private JanusGraphVertex updateVertexProperties(JanusGraphVertex v, Map<String, String> record) throws ParseException {
 
@@ -199,7 +120,7 @@ public class VertexWorker extends Worker {
         String value = null;
 
         for (String column : record.keySet()) {
-            try {
+           try {
                 value = record.get(column);
             }catch (Exception e){
                 System.out.println("here is the problem : " + column);
@@ -212,20 +133,17 @@ public class VertexWorker extends Worker {
 
             String propName = (String) getPropertiesMap().get(column);
             if (propName == null) {
-                // log.info("Thread " + myID + ".Cannot find property name for
-                // column " + column
-                // + " in the properties map. Using the column name as
-                // default.");
                 continue;
-                // propName = column;
             }
-            // Update property only if it does not exist already
-            if (!v.properties(propName).hasNext()) {
-                // TODO Convert properties between data types. e.g. Date
-                Object convertedValue = BatchHelper.convertPropertyValue(value,
-                        graphTransaction.getPropertyKey(propName).dataType());
+            // TODO Convert properties between data types. e.g. Date
+            Object convertedValue = BatchHelper.convertPropertyValue(value, graphTransaction.getPropertyKey(propName).dataType());
+            try{
                 v.property(propName, convertedValue);
+            }catch (Exception e){
+                log.error(e.toString());
             }
+            System.out.println(v.values().toString());
+
         }
         return v;
     }
@@ -234,60 +152,77 @@ public class VertexWorker extends Worker {
         String vertexLabel = getVertexLabel(record);
         System.out.println("adding new vertex");
         JanusGraphVertex v = graphTransaction.addVertex(vertexLabel);
-        updateVertexProperties(v, record);
         return v;
     }
 
-    private void postRecord(Map<String, String> record) throws Exception {
-
-        String vertexLabel = getVertexLabel(record);
-
-        JanusGraphVertex v = addNewVertex(record);
-
-        //JanusGraphVertex v = graphTransaction.addVertex(vertexLabel);
-        updateVertexProperties(v, record);
-/*
-        JanusGraphVertex v = graphTransaction.addVertex(vertexLabel);
-
-        // set the properties of the vertex
-        String value = null;
-        for (String column : record.keySet()) {
-            try {
-                value = record.get(column);
-            }catch (Exception e){
-                System.out.println("here is the problem : " + column);
-                System.out.println("here is the problem : " + record.get(column));
-                throw e;
+    private void postRecord(Map<String, String> record){
+        log.info("calling post record");
+        try{
+            JanusGraphVertex v = addNewVertex(record);
+            updateVertexProperties(v, record);
+            if (currentRecord % COMMIT_COUNT == 0) {
+                graphTransaction.commit();
             }
-            // If value="" or it is a vertex label then skip it
-            if (value == null || value.length() == 0 || column.equals(vertexLabelFieldName))
-                continue;
-
-            String propName = (String) getPropertiesMap().get(column);
-            if (propName == null) {
-                // log.info("Thread " + myID + ".Cannot find property name for
-                // column " + column
-                // + " in the properties map. Using the column name as
-                // default.");
-                continue;
-                // propName = column;
-            }
-            // Update property only if it does not exist already
-            if (!v.properties(propName).hasNext()) {
-                // TODO Convert properties between data types. e.g. Date
-                Object convertedValue = BatchHelper.convertPropertyValue(value,
-                        graphTransaction.getPropertyKey(propName).dataType());
-                v.property(propName, convertedValue);
-            }
+            currentRecord++;
+        }catch (Exception e) {
+            log.error(e.toString());
+            graphTransaction.rollback();
         }
-*/
+        graphTransaction.close();
+        graphTransaction = getGraph().newTransaction();
 
+    }
+
+
+    private void putRecord(Map<String, String> record) throws Exception {
+        log.info("calling put record");
+        JanusGraphVertex v = null;
+
+        String vertexLabel = defaultVertexLabel;
+        if (vertexLabelFieldName != null) {
+            vertexLabel = record.get(vertexLabelFieldName);
+        }
+        try{
+            GraphTraversal<Vertex, Vertex> gt = graphTransaction.traversal().V().has(vertexPk, record.get(vertexPk));
+            if(gt.hasNext()){
+                v = (JanusGraphVertex) gt.next();
+            }else {
+                v = addNewVertex(record);
+            }
+            v = updateVertexProperties(v, record);
+            graphTransaction.commit();
+        }catch (Exception e){
+            log.error(e.toString());
+            graphTransaction.rollback();
+            throw e;
+        }
+        graphTransaction.close();
+        graphTransaction = getGraph().newTransaction();
+
+    }
+
+    private void patchRecord(Map<String, String> record) throws Exception {
+        try {
+            JanusGraphVertex v = null;
+            GraphTraversal<Vertex, Vertex> gt = graphTransaction.traversal().V().has(vertexPk, record.get(vertexPk));
+            if (gt.hasNext()) {
+                v = (JanusGraphVertex) gt.next();
+                log.info("Vertex found updating properties");
+                v = updateVertexProperties(v, record);
+            } else {
+                log.info("Vertex not found");
+                throw new VertexNotFound("vertex with pk: " + vertexPk + "=" + record.get(vertexPk));
+            }
+        }catch (Exception e){
+            throw e;
+        }
         if (currentRecord % COMMIT_COUNT == 0) {
             graphTransaction.commit();
             graphTransaction.close();
             graphTransaction = getGraph().newTransaction();
         }
         currentRecord++;
+
     }
 
     public UUID getMyID() {
@@ -296,11 +231,7 @@ public class VertexWorker extends Worker {
 
     @Override
     public void run() {
-        log.info("Starting new thread " + myID);
-
-        log.info("Starting " + jobType + " job");
-
-        // Start new graph transaction
+        log.info("Starting new thread with id: " + myID + " for jobYype: "+ jobType);
         graphTransaction = getGraph().newTransaction();
         getRecords().forEachRemaining(new Consumer<Map<String, String>>() {
             @Override
